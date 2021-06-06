@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Marco P. Apolinario
 permalink: /
 description: <a href="#">Ph.D. Student in ECE at Purdue University</a>. B.Sc. in Electronics Engineering
 

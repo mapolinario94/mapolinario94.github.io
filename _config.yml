@@ -64,7 +64,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: BNmorphic  # your blog must have a name for it to show up in the nav bar
-blog_description: blog about brain-inspired and neuromorphic computing
+blog_description: exploring brain-inspired and neuromorphic computing
 permalink: /blog/:year/:month/:title/
 
 # Pagination
