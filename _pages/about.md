@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">Ph.D. Student in ECE at Purdue University</a>. B.Sc. in Electronics Engineering
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>MSEE 237, Purdue University</p>
+    <p>501 Northwestern Ave</p>
+    <p>West Lafayette, IN 47907</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a Ph.D. student in Department of Electrical and Computer Engineering at Purdue University, working under the guidance of Prof. Kaushik Roy in the [Nanoelectronics Research Lab](https://engineering.purdue.edu/NRL){:target="\_blank"}. I received my B.Sc. in Electronics Engineering from the National University of Engineering, Peru in 2017. Previously, I was a summer research intern in the Jicamarca Radio Observatory (JRO) in 2017. Then, I worked for three years as a Research Assistant (RA) in the Signal and Image Processing Lab at the National Institute of Research and Training in Telecommunications (INICTEL-UNI), Peru. There, I developed research projects on deep learning for natural resource monitoring and remote sensing applications, these efforts produced three conference papers and one Q2 journal paper. In 2020, I have been awarded the graduate scholarship "Beca Presidente de la Republica" of the Peruvian Government (PRONABEC) to fund my graduate studies at Purdue University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+ My research interests include computer vision algorithms, neuromorphic computing, and event-driven deep learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

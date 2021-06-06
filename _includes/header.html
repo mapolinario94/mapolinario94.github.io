@@ -4,7 +4,7 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
       {% if page.title != "about" %}
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+      <a class="navbar-brand title font-weight-lighter" href="/">
        {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
       </a>
       {% elsif site.enable_navbar_social %}
@@ -25,7 +25,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              About
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -35,7 +35,7 @@
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              blog
+              Blog
               {% if page.title == "blog" %}
               <span class="sr-only">(current)</span>
               {% endif %}
@@ -56,6 +56,16 @@
           </li>
           {% endif %}
           {% endfor %}
+
+          <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/assets/pdf/cv_MarcoApolinario.pdf' | relative_url }}" target="_blank">
+              CV
+              {% if page.title == "CV" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">

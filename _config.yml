@@ -3,21 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+first_name: Marco
+middle_name: Paul
+last_name: Apolinario
+email: mapolina@purdue.edu
+description: # the ">" symbol means to ignore newlines until "footer_text:"
+  This is my personal academic website where I will share some info about the projects I am working on, my research interests, and some news. Also, I will publish a blog focus on topics about neuromorphic computing, computer vision, and applications.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
-url:  # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+icon: MA
+url: mapolinario94.github.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -25,7 +22,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -36,48 +33,46 @@ max_width: 800px
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+github_username: mapolinario94 # your GitHub user name
+twitter_username: mapolinario94 # your Twitter handle
+linkedin_username: marco-apolinario # your LinkedIn user name
+scholar_userid: a9JiVBQAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-1124-2545 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+publons_id:  AAU-5047-2020 # your ID on Publons
+research_gate_profile: Marco_Apolinario # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-179716102-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name: BNmorphic  # your blog must have a name for it to show up in the nav bar
+blog_description: blog about brain-inspired and neuromorphic computing
+permalink: /blog/:year/:month/:title/
 
 # Pagination
 pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: BNmorphic # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -93,7 +88,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -134,7 +129,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Extras
 github: [metadata]
 
 # -----------------------------------------------------------------------------
@@ -143,8 +137,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Apolinario
+  first_name: [Marco, M., Marco P. E., M. P. E.]
 
   style: apa
   locale: en
@@ -166,19 +160,15 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
+enable_google_analytics:    true
+enable_panelbear_analytics: false
+enable_mansory:             true
+enable_math:                true
+enable_tooltips:            false
+enable_darkmode:            false
+show_social_icons:          false
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
@@ -210,6 +200,3 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
-medium_zoom:
-  version: "1.0.6"
-  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
