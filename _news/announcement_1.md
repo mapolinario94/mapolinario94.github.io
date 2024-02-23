@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-12-01 15:59:00-0500
 inline: true
-related_posts: false
+published: true
 ---
 
-A simple inline announcement.
+My grant application for registration of  [LXAI Workshop at NeurIPS](https://www.latinxinai.org/neurips-2020-about){:target="\_blank"} has been accepted!

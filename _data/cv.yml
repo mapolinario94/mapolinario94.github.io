@@ -2,96 +2,168 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Marco Paul E. Apolinario Lainez
+    #- name: Date of Birth
+    #  value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Electrical and Computer Engineering
+      institution: Purdue University, West Lafayette, Indiana, US
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <a>Advisor:</a> Prof. Kaushik Roy.
+        - <a>Research Topic:</a> Brain-Inspired Computing.
+        - <a>GPA:</a> 3.9.
+    - title: BS in Electronics Engineering
+      institution: National University of Engineering (UNI), Lima, Peru
+      year: 2013 - 2017
       description:
-        - Description 1.
-        - Description 2.
+        - <a>GPA:</a> 3.5.
+        - <a>Rank:</a> 3/28.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Systems Engineering Intern
+      institution: Texas Instruments - Kilby Labs, Dallas, Texas, US
+      year: 2023 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conducted research into hardware-aware neural architecture and quantization search, leveraging evolutionary optimization algorithms to facilitate the deployment of deep learning models on low-power devices.
+    - title: Graduate Research Assistant
+      institution: Purdue University - Center for Brain-Inspired Computing (C-BRIC), West Lafayette, Indiana, US
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Explored innovative neuro-inspired machine learning algorithms tailored for emerging hardware technologies.
+        - Spearheaded the design of an avant-garde ADC-Less In-memory Computing Hardware, specifically optimized for Spiking Neural Networks, employing a collaborative HW/SW co-design approach. This resulted in remarkable energy savings of 2-7x and latency reductions of 9-24x when compared to traditional architectures.
+        - Engineered and implemented a novel temporal local learning rule (S-TLLR) for Spiking Neural Networks, drawing inspiration from the STDP mechanism. This approach demonstrated equivalent performance to the BPTT algorithm across various time-dependent tasks.
+    - title: Research Assistant in Computer Vision
+      institution: National Institute for Research and Training in Telecommunications (INICTEL-UNI), Lima, Peru
+      year: 2017 - 2020
       description:
+        - Contributed to the development of various machine learning models for different applications, including timber species identification, underwater acoustic inversion, satellite cloud segmentation, and river level estimation.
+        - Integrated machine learning algorithms into low-power electronic systems to enable real-time inference capabilities for precision agriculture applications.
+        - Innovated by proposing a lightweight CNN model designed for recognizing timber species in microscope images, achieving accuracy rates exceeding 90%, even in scenarios with open-set conditions.
+        - Obtained three software copyrights, covering applications in remote sensing and health monitoring.
+        - Shared insights through scholarly contributions, including one journal paper and three conference papers.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+    #- title: Director
+    #  institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    #  year: 1917-1933
+
+    #- title: Professor of Theoretical Physics
+    #  institution: Karl-Ferdinand University, Prague, Czechoslovakia
+    #  year: 1911 - 1917
+    #  description:
+
+    #- title: Associate Professor of Theoretical Physics
+    #  institution: University of Zurich, Zurich, Switzerland
+    #  year: 1909 - 1911
+
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Relevant Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Hardware/Software co-design of In-memory Computing for Spiking Neural Networks
+      year: 2021 - 2022
+      description: Designed energy-efficient In-memory Computing hardware for spiking neural networks (SNN) to deploy such models for real-time edge applications achieving low latency and energy consumption.
+    - title: Open-Set Recognition of Peruvian Timber Species 	
+      year: 2018 - 2020
+      description: Produced one low-power field-deployable electronic prototype to perform open-set recognition of 16 Peruvian timber species in real-time with high accuracy based on a lightweight convolutional neural network.
+    - title: Software for Cloud Segmentation of PERUSAT-1 Multispectral Satellite Images
+      year: 2019
+      description: Developed a software product for the Space Agency of Peru (CONIDA) to generate accurate cloud masks over PERUSAT-1 images (high-resolution multispectral satellite images) based on deep learning models.
+    #- title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    #  year: 2015 - now
+    #  description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Fully funded Graduate Peruvian Fellowship "Beca Generacion del Bicentenario"
+      institution: Peruvian Ministry of Education (PRONABEC)
+      year: 2020
+      description: Awarded to outstanding young Peruvian professionals.
+    - title: <a>"Julio Urbina Arias"</a> Award 
+      institution: IEEE Student Branch at the National University of Engineering (UNI)
+      year: 2017
+      description: Awarded to outstanding student member in research and projects.
+      
+    #- year: 1921
+    #  items: 
+    #    - Nobel Prize in Physics 
+    #    - Matteucci Medal
+    #- year: 2029
+    #  items: 
+    #    - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items: 
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
 
-- title: Other Interests
+- title: Relevant Coursework
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>VLSI design courses:</u> Advanced VLSI Design (Spring'22), MOS VLSI Design (Fall'21), Solid State Devices (Spring'21).
+    - <u>Computer Science courses:</u> Artificial Intelligence (Fall'21), Computational Methods in Optimization (Spring'22).
+
+- title: Course Projects
+  type: time_table
+  contents:
+    - title: Multi-bit dot-product operation with SRAM-cells [ECE695 – Advanced VLSI Design]
+      year: Spring 2022
+      description: 
+        - Implemented an analog-like in-memory multi-bit dot-product engine using standard 8T-SRAM cells.
+        - <a>Skills:</a> Cadence Virtuoso, mixed-signal design, and corner analysis.
+
+    - title: Compressed Sensing Algorithms [CS520 – Computational Methods in Optimization] 	
+      year: Spring 2022
+      description: 
+        - Programmed, compared, and applied three compressed sensing algorithms (OMP, GPSR, and SpaRSA) for audio signal compression, image reconstruction, and image classification applications.
+        - <a>Skills:</a> Python programming and optimization analysis.
+
+    - title: In-memory bitwise NOR operation with 8T-SRAM [ECE559 – MOS VLSI Design]
+      year: Fall 2021
+      description: 
+        - Designed and simulated a 128x16 8T-SRAM array to perform in-memory bitwise NOR operations.
+        - <a>Skills:</a> Cadence Virtuoso, layout design, and schematic design.
+
+    - title: Near-Lossless Analog to Spiking Neural Networks Conversion [ECE570 – Artificial Intelligence]
+      year: Fall 2021
+      description: 
+        - Studied the role of reset mechanism in ANN-to-SNN conversion schemes to train deep spiking networks.
+        - <a>Skills:</a> Python programming, PyTorch, and Deep Neural Networks.
+
+
+    #- title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    #  year: 2015 - now
+    #  description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Technical Strenghts
+  type: list
+  contents:
+    - <u>Programming Skills:</u> Python, C++, VHDL/Verilog, Pytorch, Tensorflow/Keras.
+    - <u>EDA software:</u> Cadence Virtuoso, Quartus Prime, and Eagle PCB.
+
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

@@ -3,83 +3,137 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@ARTICLE{Chowdhury2024,
+  abbr={UnderReview},
+  author={S. S. {Chowdhury} and A. K. {Kosta} and D. {Sharma} and M. P. E. {Apolinario}, and K. {Roy}},
+  journal={Under Review},
+  title={Unearthing the Potential of Spiking Neural Networks},
+  year={2024},
+ }
+
+
+
+@ARTICLE{Apolinario2023,
+  abbr={arXiv},
+  author={M. P. E. {Apolinario} and K. {Roy}},
+  journal={Under Review},
+  title={S-TLLR: STDP-inspired Temporal Local Learning Rule for Spiking Neural Networks},
+  year={2023},
+  abstract={Spiking Neural Networks (SNNs) are biologically plausible models that have been identified as potentially apt for the deployment for energy-efficient intelligence at the edge, particularly for sequential learning tasks. However, training of SNNs poses a significant challenge due to the necessity for precise temporal and spatial credit assignment. Back-propagation through time (BPTT) algorithm, whilst being the most widely used method for addressing these issues, incurs a high computational cost due to its temporal dependency. Moreover, BPTT and its approximations solely utilize causal information derived from the spiking activity to compute the synaptic updates, thus neglecting non-causal relationships. In this work, we propose S-TLLR, a novel three-factor temporal local learning rule inspired by the Spike-Timing Dependent Plasticity (STDP) mechanism, aimed at training SNNs on event-based learning tasks. S-TLLR considers both causal and non-causal relationships between pre and post-synaptic activities, achieving performance comparable to BPTT and enhancing performance relative to methods using only causal information. Furthermore, S-TLLR has low memory and time complexity, which is independent of the number of time steps, rendering it suitable for online learning on low-power devices. To demonstrate the scalability of our proposed method, we have conducted extensive evaluations on event-based datasets spanning a wide range of applications, such as image and gesture recognition, audio classification, and optical flow estimation. In all the experiments, S-TLLR achieved high accuracy with a reduction in the number of computations between 1.1−10×.},
+  arxiv={2306.15220},
+  selected={true},
+ }
+
+
+
+@inproceedings{
+    Kosta2023,
+    abbr={CVPR},
+    author={A. {Kosta} and M. P. E. {Apolinario} and K. {Roy}},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    title={Live Demonstration: ANN vs SNN vs Hybrid Architectures for Event-based Real-time Gesture Recognition and Optical Flow Estimation},
+    month     = {June},
+    year      = {2023},
+    pages     = {4147-4148},
+    url={https://openaccess.thecvf.com/content/CVPR2023W/EventVision/html/Kosta_Live_Demonstration_ANN_vs_SNN_vs_Hybrid_Architectures_for_Event-Based_CVPRW_2023_paper.html},
+    html={https://openaccess.thecvf.com/content/CVPR2023W/EventVision/html/Kosta_Live_Demonstration_ANN_vs_SNN_vs_Hybrid_Architectures_for_Event-Based_CVPRW_2023_paper.html},
+    abstract={Spiking Neural Networks (SNNs) have recently emerged as a promising solution to handle asynchronous data from event-based cameras. Their inherent recurrence allows temporal information in events to be effectively captured unlike widely used non-spiking artificial neural networks (so-called ANNs). However, SNNs are not suitable to run on GPUs and still require specialized neuromorphic hardware to process events efficiently. Hybrid SNN-ANN architectures aim to obtain the best of both worlds with initial SNN layers capturing input temporal information followed by standard ANN layers for ease of training and deployment on GPUs. In this work, we implement ANN, SNN, and hybrid architectures for real-time gesture recognition and optical flow estimation on standard GPUs. We compare different architectures in terms of prediction accuracy, number of parameters, latency, and computational power when executing them in real time on a standard laptop. Our implementation suggests that the hybrid architecture offers the best trade-off in terms of accuracy, compute efficiency, and latency on readily available GPU platforms.},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+
+@inproceedings{Biswas2023,
+  abbr={WACV},
+  author={S. {Biswas} and A. {Kosta} and C. {Liyanagedera} and M. P. E. {Apolinario} and K. {Roy}},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  title={HALSIE -- Hybrid Approach to Learning Segmentation by Simultaneously Exploiting Image and Event Modalities},
+  year={2024},
+  abstract={Standard frame-based algorithms fail to retrieve accurate segmentation maps in challenging real-time applications like autonomous navigation, owing to the limited dynamic range and motion blur prevalent in traditional cameras. Event cameras address these limitations by asynchronously detecting changes in per-pixel intensity to generate event streams with high temporal resolution, high dynamic range, and no motion blur. However, event camera outputs cannot be directly used to generate reliable segmentation maps as they only capture information at the pixels in motion. To augment the missing contextual information, we postulate that fusing spatially dense frames with temporally dense events can generate semantic maps with fine-grained predictions. To this end, we propose HALSIE, a hybrid approach to learning segmentation by simultaneously leveraging image and event modalities. To enable efficient learning across modalities, our proposed hybrid framework comprises two input branches, a Spiking Neural Network (SNN) branch and a standard Artificial Neural Network (ANN) branch to process event and frame data respectively, while exploiting their corresponding neural dynamics. Our hybrid network outperforms the state-of-the-art semantic segmentation benchmarks on DDD17 and MVSEC datasets and shows comparable performance on the DSEC-Semantic dataset with upto 33.23× reduction in network parameters. Further, our method shows upto 18.92× improvement in inference cost compared to existing SOTA approaches, making it suitable for resource-constrained edge applications.},
+  arxiv={2211.10754},
+  selected={false},
+  url={https://openaccess.thecvf.com/content/WACV2024/papers/Biswas_HALSIE_Hybrid_Approach_to_Learning_Segmentation_by_Simultaneously_Exploiting_Image_WACV_2024_paper.pdf},
+  html={https://openaccess.thecvf.com/content/WACV2024/papers/Biswas_HALSIE_Hybrid_Approach_to_Learning_Segmentation_by_Simultaneously_Exploiting_Image_WACV_2024_paper.pdf},
+ }
+
+@ARTICLE{Apolinario2023,
+  abbr={TETC},
+  author={M. P. E. {Apolinario} and A. {Kosta} and U. {Saxena} and K. {Roy}},
+  journal={IEEE Transactions on Emerging Topics in Computing},
+  title={Hardware/Software co-design with ADC-Less In-memory Computing Hardware for Spiking Neural Networks},
+  year={2023},
+  month = {September},
+  abstract={Spiking Neural Networks (SNNs) are bio-plausible models that hold great potential for realizing energy-efficient implementations of sequential tasks on resource-constrained edge devices. However, commercial edge platforms based on standard GPUs are not optimized to deploy SNNs, resulting in high energy and latency. While analog In-Memory Computing (IMC) platforms can serve as energy-efficient inference engines, they are accursed by the immense energy, latency, and area requirements of high-precision ADCs (HP-ADC), overshadowing the benefits of in-memory computations. We propose a hardware/software co-design methodology to deploy SNNs into an ADC-Less IMC architecture using sense-amplifiers as 1-bit ADCs replacing conventional HP-ADCs and alleviating the above issues. Our proposed framework incurs minimal accuracy degradation by performing hardware-aware training and is able to scale beyond simple image classification tasks to more complex sequential regression tasks. Experiments on complex tasks of optical flow estimation and gesture recognition show that progressively increasing the hardware awareness during SNN training allows the model to adapt and learn the errors due to the non-idealities associated with ADC-Less IMC. Also, the proposed ADC-Less IMC offers significant energy and latency improvements, 2−7× and 8.9−24.6×, respectively, depending on the SNN model and the workload, compared to HP-ADC IMC.},
+  arxiv={2211.02167},
+  url={https://doi.org/10.1109/TETC.2023.3316121},
+  html={https://doi.org/10.1109/TETC.2023.3316121},
+  selected={true},
+ }
+
+
+@inproceedings{
+    Lopez2021,
+    abbr={BTSym},
+    author={L.E. {López Huamán} and M. P. E. {Apolinario} and S.G. {Huamán Bustamante}},
+    booktitle={Iano Y., Arthur R., Saotome O., Kemper G., Borges Monteiro A.C. (eds) Proceedings of the 5th Brazilian Technology Symposium. Smart Innovation, Systems and Technologies},
+    title={Method of Estimating River Levels with Reflective Tapes Using Artificial Vision Techniques},
+    year={2021},
+    volume={202},
+    doi={10.1007/978-3-030-57566-3_19},
+    url={https://doi.org/10.1007/978-3-030-57566-3_19},
+    html={https://doi.org/10.1007/978-3-030-57566-3_19},
+    ISSN={978-3-030-57565-6},
+    publisher={Springer, Cham},
+    abstract={Water level measurement in a river is a necessary step for flood prevention. Early recognition of this factor could reduce the vulnerability of the population in the surroundings. In this work, we use frames from videos as images to obtain water level measurement indirectly. We applied digital image processing techniques over these images to perform segmentation, edge detection, and we also applied multiple view geometry techniques as projective transformation in a plane. The proposed method estimates water level in specific locations where it is possible to install a reflective tape with a two-color pattern, used as an indicator of water level. We obtained the segmentation of the section out of the water of the reflective tape and so we get the estimation of water level. Through the relation of the real distances (in centimeters) that have four collinear points, seen from a perpendicular view, with the distances (in pixel unit) of those same points contained in an image, which has undergone a projective transformation. We made testing in a water tank built to this work and the tests produced a percentage error at the range of 0.01–2.06% to a distance of 1.5 m from a wall and 2 m high (location of camera).},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
+@INPROCEEDINGS{8526457,
+  abbr={INTERCON},
+  author={M. P. E. {Apolinario} and S. G. {Huaman Bustamante} and G. C. {Orellana}},
+  booktitle={2018 IEEE XXV International Conference on Electronics, Electrical Engineering and Computing (INTERCON)},
+  title={Deep Learning Applied to Identification of Commercial Timber Species from Peru},
+  year={2018},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={Automatic identification of timber species is a necessity and a challenge in several aspects, especially for government institutions in charge of monitoring forestry resources. In this paper, we propose a methodology to develop an efficient computational model to identify wood samples of seven commercial timber species chosen according to availability of samples properly classified by specialists. For this, we created image sets of wood of seven timber species using a portable digital microscope connected to a personal computer. These images were divided into patches and grouped into training, validation and test sets, with which a convolutional neuronal network was trained. It consist of four layers: two convolutional layers with max pooling and two fully connected layers at the output. Previously, three image patch sizes were evaluated to find the highest accuracy value, precision and sensitivity for the identification. The results show a good performance of the computational model with an accuracy of 94.05% and precision and sensitivity values around 90%, under proposed conditions.},
+  keywords={convolution;feature extraction;feedforward neural nets;forestry;government;image classification;learning (artificial intelligence);microcomputers;microscopes;timber;automatic identification;government institutions;monitoring forestry resources;wood samples;portable digital microscope;personal computer;convolutional neuronal network;fully connected layers;image patch sizes;deep learning;commercial timber species;Training;Microscopy;Kernel;Forestry;Sensitivity;Biological neural networks;Convolutional Neural Networks;kernel image;woods species recognition},
+  doi={10.1109/INTERCON.2018.8526457},
+  ISSN={},
+  month={Aug},
+  url={https://ieeexplore.ieee.org/document/8526457},
+  html={https://ieeexplore.ieee.org/document/8526457},}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
+@ARTICLE{9011545,
+  abbr={IEEELatam},
+  author={M. P. E. {Apolinario} and D. A. {Urcia Paredes} and S. G. {Huaman Bustamante}},
+  journal={IEEE Latin America Transactions},
+  title={Open Set Recognition of Timber Species Using Deep Learning for Embedded Systems},
+  year={2019},
   volume={17},
-  pages={549--560},
-  year={1905}
-}
+  number={12},
+  pages={2005-2012},
+  abstract={Reliable and rapid identification of timber species is a very relevant issue for many countries in South America and especially for Peru, which is the second country with the largest extent of tropical forest, and that is because this issue is a necessity in order to develop an effective management of the forest resources, such as inspection and control of the timber commerce. Since current methods of identification are based on a closed set recognition approach, they are not reliable enough to be used in a practical application because scenarios of identification of timber species are by nature an open set recognition problem. For that reason, in this work we propose a convolutional neural network that has two main characteristics, being able to run in a real-time embedded system and being able to handle the open set recognition problem, that is, this model can discriminate between known and unknown species. In order to evaluate it, tests are performed in two timber species datasets and some experiments are developed in the embedded system Raspberry Pi3B+ to measure energy consumption. The results present high metrics, which means that it manages to discriminate the unknown species with accuracy and F1 score above 91% for two sets of images used. In addition to this, our proposed model obtain lower maximum power value (10-12%) and computational resource usage (5-13%) than a classical convolutional model and MobileNetsV2 measured on the Raspberry Pi3B+.},
+  keywords={convolutional neural nets;embedded systems;energy consumption;forestry;learning (artificial intelligence);timber;tropical forest;forest resources;timber commerce;closed set recognition approach;open set recognition problem;real-time embedded system;unknown species;timber species datasets;embedded system Raspberry Pi3B;energy consumption;Forestry;Embedded systems;Energy comsumption;Convolutional neural networks;convolutional neural network;embedded system;open set recognition;timber species},
+  doi={10.1109/TLA.2019.9011545},
+  ISSN={1548-0992},
+  month={December},
+  url={https://ieeexplore.ieee.org/document/9011545},
+  html={https://ieeexplore.ieee.org/document/9011545},
+  selected={false},}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+@INPROCEEDINGS{8853566,
+  abbr={INTERCON},
+  author={M. P. E. {Apolinario} and S. G. {Huaman Bustamante} and G. {Morales} and D. {Diaz}},
+  booktitle={2019 IEEE XXVI International Conference on Electronics, Electrical Engineering and Computing (INTERCON)},
+  title={Estimation of 2D Velocity Model using Acoustic Signals and Convolutional Neural Networks},
+  year={2019},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={The parameters estimation of a system using indirect measurements over the same system is a problem that occurs in many fields of engineering, known as the inverse problem. It also happens in the field of underwater acoustic, especially in mediums that are not transparent enough. In those cases, shape identification of objects using only acoustic signals is a challenge because it is carried out with information of echoes that are produced by objects with different densities from that of the medium. In general, these echoes are difficult to understand since their information is usually noisy and redundant. In this paper, we propose a model of convolutional neural network with an Encoder-Decoder configuration to estimate both localization and shape of objects, which produce reflected signals. This model allows us to obtain a 2D velocity model. The model was trained with data generated by the finite-difference method, and it achieved a value of 98.58% in the intersection over union metric 75.88% in precision and 64.69% in sensitivity.},
+  url={https://ieeexplore.ieee.org/document/8853566},
+  html={https://ieeexplore.ieee.org/document/8853566},
+  doi={10.1109/INTERCON.2019.8853566}}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+

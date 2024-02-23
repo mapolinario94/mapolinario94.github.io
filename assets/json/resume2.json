@@ -1,24 +1,22 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Marco Paul E. Apolinario",
+    "label": "Graduate Research Assistant",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "mapolina@purdue.edu",
+    "summary": "Electronic Engineer interested in Hardware/Software Co-design for Brain-Inspired Computing. Previous experience developing bio plausible deep learning models, managing research projects and small teams, and working with multidisciplinary teams.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "501 Northwestern Ave",
+      "postalCode": "IN 47906",
+      "city": "West Lafayette",
       "countryCode": "US",
-      "region": "California"
+      "region": "Indiana"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "mapolinario94",
+        "url": "https://twitter.com/mapolinario94"
       }
     ]
   },
@@ -46,14 +44,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Purdue University",
+      "location": "West Lafayette, IN",
+      "url": "https://engineering.purdue.edu/NRL",
+      "area": "Electrical and Computer Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "startDate": "2021",
+      "endDate": "2025",
+      "score": "3.9",
       "courses": ["Theory of Relativity"]
     }
   ],
