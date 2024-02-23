@@ -8,5 +8,5 @@ published: true
 
 ---
 
-Accepted in the [NMA - Computational Neuroscience Summer School](https://academy.neuromatch.io/home){:target="\_blank"}!!! 😎
+Accepted in the [NMA - Computational Neuroscience Summer School](https://academy.neuromatch.io/){:target="\_blank"}!!! 😎
 
