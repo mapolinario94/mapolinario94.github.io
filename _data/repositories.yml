@@ -1,12 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  #- mapolinario94
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mapolinario94/GEM5_ECE56500_FALL23
+  - mapolinario94/ECE570-Project
+  - mapolinario94/CS520_Project_CompressiveSensing
+  - mapolinario94/Avocado-ImageSegmentation
+  #- alshedivat/al-folio
+  #- twbs/bootstrap
+  #- jekyll/jekyll
+  #- jquery/jquery
+  #- FortAwesome/Font-Awesome
+  #- jpswalsh/academicons
+  #- mathjax/MathJax
