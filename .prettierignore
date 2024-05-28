@@ -6,3 +6,5 @@ lighthouse_results/**
 _posts/2015-10-20-math.md
 _news/*
 _data/*
+_config.yml
+_pages/*
