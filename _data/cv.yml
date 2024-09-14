@@ -32,14 +32,14 @@
       institution: Texas Instruments - Kilby Labs, Dallas, Texas, US
       year: 2023 - 2023
       description:
-        - Conducted research into hardware-aware neural architecture and quantization search, leveraging evolutionary optimization algorithms to facilitate the deployment of deep learning models on low-power devices.
+        - Conducted research into hardware-aware neural architecture and quantization search, leveraging evolutionary optimization algorithms to facilitate the deployment of deep learning models on low-power devices. Achieved a 10x reduction in model search time and a 5% increase in model performance for keyword spotting tasks.
     - title: Graduate Research Assistant
       institution: Purdue University - Center for Brain-Inspired Computing (C-BRIC), West Lafayette, Indiana, US
       year: 2021 - Present
       description:
-        - Explored innovative neuro-inspired machine learning algorithms tailored for emerging hardware technologies.
-        - Spearheaded the design of an avant-garde ADC-Less In-memory Computing Hardware, specifically optimized for Spiking Neural Networks, employing a collaborative HW/SW co-design approach. This resulted in remarkable energy savings of 2-7x and latency reductions of 9-24x when compared to traditional architectures.
-        - Engineered and implemented a novel temporal local learning rule (S-TLLR) for Spiking Neural Networks, drawing inspiration from the STDP mechanism. This approach demonstrated equivalent performance to the BPTT algorithm across various time-dependent tasks.
+        - Conducted research on neuro-inspired machine learning algorithms for emerging hardware technologies, focusing on scalability and energy efficiency in neuromorphic systems.
+        - Designed a novel ADC-Less In-memory Computing Hardware, specifically optimized for Spiking Neural Networks, employing a collaborative HW/SW co-design approach. This resulted in remarkable energy savings of 2-7x and latency reductions of 9-24x when compared to traditional architectures.
+        - Engineered and implemented a novel temporal local learning rule (S-TLLR) for Spiking Neural Networks, drawing inspiration from the STDP mechanism. This approach demonstrated equivalent performance to the BPTT algorithm across various time-dependent tasks with 1.3-6.6x reduction in memory usage.
     - title: Research Assistant in Computer Vision
       institution: National Institute for Research and Training in Telecommunications (INICTEL-UNI), Lima, Peru
       year: 2017 - 2020
@@ -71,33 +71,21 @@
 #      year: 2015-now
 #      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Relevant Projects
-  type: time_table
-  contents:
-    - title: Hardware/Software co-design of In-memory Computing for Spiking Neural Networks
-      year: 2021 - 2022
-      description: Designed energy-efficient In-memory Computing hardware for spiking neural networks (SNN) to deploy such models for real-time edge applications achieving low latency and energy consumption.
-    - title: Open-Set Recognition of Peruvian Timber Species 	
-      year: 2018 - 2020
-      description: Produced one low-power field-deployable electronic prototype to perform open-set recognition of 16 Peruvian timber species in real-time with high accuracy based on a lightweight convolutional neural network.
-    - title: Software for Cloud Segmentation of PERUSAT-1 Multispectral Satellite Images
-      year: 2019
-      description: Developed a software product for the Space Agency of Peru (CONIDA) to generate accurate cloud masks over PERUSAT-1 images (high-resolution multispectral satellite images) based on deep learning models.
-    #- title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-    #  year: 2015 - now
-    #  description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Fully funded Graduate Peruvian Fellowship "Beca Generacion del Bicentenario"
+    - title: NSF AccelNet NeuroPAC Fellowship
+      institution: NSF AccelNet NeuroPAC
+      year: 2024
+      description: Granted $12.5K to conduct a research internship at Delft University of Technology (TU Delft), focusing on the design of a digital on-chip learning hardware accelerator.
+    - title: Graduate Peruvian Fellowship "Beca Generacion del Bicentenario"
       institution: Peruvian Ministry of Education (PRONABEC)
       year: 2020
-      description: Awarded to outstanding young Peruvian professionals.
+      description: Fully funded by the Peruvian Ministry of Education, recognizing exceptional young professionals for their potential to drive innovation and research.
     - title: <a>"Julio Urbina Arias"</a> Award 
       institution: IEEE Student Branch at the National University of Engineering (UNI)
       year: 2017
-      description: Awarded to outstanding student member in research and projects.
+      description: Presented to an outstanding student member for exceptional contributions to research and projects within the IEEE Student Branch at the National University of Engineering, Lima, Peru.
       
     #- year: 1921
     #  items: 
@@ -119,11 +107,24 @@
 #        - Description 1.
 #        - Description 2.
 
+- title: Academic Service
+  type: list
+  contents:
+    - <u>Reviewed for IEEE Journals:</u> IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), and IEEE Latin America Transactions.
+    - <u>Reviewed for Conferences:</u> Neural Information Processing Systems (NeurIPS), International Conference on Artificial Neural Networks (ICANN) and IEEE INTERCON.
+
+- title: Technical Strenghts
+  type: list
+  contents:
+    - <u>Programming and Hardware Description Languages (HDL):</u> Python, C++, VHDL/Verilog.
+    - <u>Machine Learning Frameworks:</u> Pytorch, Tensorflow/Keras.
+    - <u>EDA software:</u> Cadence Virtuoso, Quartus Prime, and Eagle PCB.
+
 - title: Relevant Coursework
   type: list
   contents:
-    - <u>VLSI design courses:</u> Advanced VLSI Design (Spring'22), MOS VLSI Design (Fall'21), Solid State Devices (Spring'21).
-    - <u>Computer Science courses:</u> Artificial Intelligence (Fall'21), Computational Methods in Optimization (Spring'22).
+    - <u>VLSI design courses:</u> Computer Architecture (Fall'23), System on Chip Design (Fall'22), Analog CMOS Design (Fall'22), Advanced VLSI Design (Spring'22), MOS VLSI Design (Fall'21), Solid State Devices (Spring'21).
+    - <u>Computer Science courses:</u> Applied Quantum Computing (Spring'23), Optimization for Deep Learning (Fall'23), Computational Methods in Optimization (Spring'22), Artificial Intelligence (Fall'21).
 
 - title: Course Projects
   type: time_table
@@ -156,12 +157,6 @@
     #- title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
     #  year: 2015 - now
     #  description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Technical Strenghts
-  type: list
-  contents:
-    - <u>Programming Skills:</u> Python, C++, VHDL/Verilog, Pytorch, Tensorflow/Keras.
-    - <u>EDA software:</u> Cadence Virtuoso, Quartus Prime, and Eagle PCB.
 
 #- title: Other Interests
 #  type: list
