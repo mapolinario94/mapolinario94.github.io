@@ -28,6 +28,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Visiting Researcher
+      institution: TU Delft – Cognitive Sensor Nodes and Systems (CogSys) Team, Delft, Netherlands
+      year: 2024 - Present
+      description:
+        - Conducted research on custom digital hardware accelerators for on-device learning using local learning rules in artificial neural networks, supported by the NSF AccelNet NeuroPAC Fellowship.
     - title: Systems Engineering Intern
       institution: Texas Instruments - Kilby Labs, Dallas, Texas, US
       year: 2023 - 2023
@@ -77,15 +82,15 @@
     - title: NSF AccelNet NeuroPAC Fellowship
       institution: NSF AccelNet NeuroPAC
       year: 2024
-      description: Granted $12.5K to conduct a research internship at Delft University of Technology (TU Delft), focusing on the design of a digital on-chip learning hardware accelerator.
+      description: Awarded for conducting research on a digital on-chip learning hardware accelerator at Delft University of Technology (TU Delft).
     - title: Graduate Peruvian Fellowship "Beca Generacion del Bicentenario"
       institution: Peruvian Ministry of Education (PRONABEC)
       year: 2020
-      description: Fully funded by the Peruvian Ministry of Education, recognizing exceptional young professionals for their potential to drive innovation and research.
+      description: Fully funded by the Peruvian Ministry of Education, recognizing outstanding professionals with high potential for innovation and research in graduate studies.
     - title: <a>"Julio Urbina Arias"</a> Award 
       institution: IEEE Student Branch at the National University of Engineering (UNI)
       year: 2017
-      description: Presented to an outstanding student member for exceptional contributions to research and projects within the IEEE Student Branch at the National University of Engineering, Lima, Peru.
+      description: Recognized for exceptional contributions to research and leadership within the IEEE Student Branch at the National University of Engineering, Lima, Peru.
       
     #- year: 1921
     #  items: 
