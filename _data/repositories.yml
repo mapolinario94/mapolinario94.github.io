@@ -1,11 +1,11 @@
 github_users:
-  #- mapolinario94
+  - mapolinario94
 
 github_repos:
-  - mapolinario94/GEM5_ECE56500_FALL23
-  - mapolinario94/ECE570-Project
-  - mapolinario94/CS520_Project_CompressiveSensing
-  - mapolinario94/Avocado-ImageSegmentation
+  - mapolinario94/S-TLLR
+  - mapolinario94/LLS-DNN
+  #- mapolinario94/CS520_Project_CompressiveSensing
+  #- mapolinario94/Avocado-ImageSegmentation
   #- alshedivat/al-folio
   #- twbs/bootstrap
   #- jekyll/jekyll
