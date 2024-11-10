@@ -6,7 +6,7 @@ description: #Edit the `_data/repositories.yml` and change the `github_users` an
 nav: false
 nav_order: 4
 ---
-<!---
+
 ## GitHub users
 
 {% if site.data.repositories.github_users %}
@@ -36,7 +36,7 @@ nav_order: 4
 {% endif %}
 
 ## GitHub Repositories
---->
+
 {% if site.data.repositories.github_repos %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
