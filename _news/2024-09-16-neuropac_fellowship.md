@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I've been awarded the NSF AccelNet NeuroPAC Fellowship to join TU Delft during the Fall 2024!
-date: 2024-07-20 16:11:00-0400
+date: 2024-09-16 16:11:00-0400
 tags: TUDelft Research SNN Neuromorphic
 description: I've been awarded the NSF AccelNet NeuroPAC Fellowship to join TU Delft during the Fall 2024!
 inline: false
