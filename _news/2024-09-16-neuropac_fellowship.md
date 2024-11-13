@@ -18,11 +18,12 @@ A heartfelt thank you to Prof. Charlotte Frenkel and my advisor Prof. Kaushik Ro
 
 Looking forward to contributing to the advancement of the neuromorphic field and sharing updates on the work ahead!
 
-<div class="row mt-3">
-    <div class="col">
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/neuropac1.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/neuropac2.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
