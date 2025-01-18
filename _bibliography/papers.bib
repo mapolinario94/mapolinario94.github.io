@@ -4,7 +4,7 @@
 @string{aps = {American Physical Society,}}
 
 
-@ARTICLE{Apolinario2025,
+@ARTICLE{Apolinario2025b,
   abbr={WACV},
   author={M. P. E. {Apolinario} and A. {Roy} and K. {Roy}},
   journal={Accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
@@ -41,14 +41,17 @@ html={https://ieeexplore.ieee.org/document/10546699},
  }
 
 
-@ARTICLE{Apolinario2023,
-  abbr={arXiv},
+@ARTICLE{Apolinario2025a,
+  abbr={TMLR},
   author={M. P. E. {Apolinario} and K. {Roy}},
-  journal={Under Review},
+  journal={Transactions on Machine Learning Research (TMLR)},
   title={S-TLLR: STDP-inspired Temporal Local Learning Rule for Spiking Neural Networks},
-  year={2023},
-  abstract={Spiking Neural Networks (SNNs) are biologically plausible models that have been identified as potentially apt for the deployment for energy-efficient intelligence at the edge, particularly for sequential learning tasks. However, training of SNNs poses a significant challenge due to the necessity for precise temporal and spatial credit assignment. Back-propagation through time (BPTT) algorithm, whilst being the most widely used method for addressing these issues, incurs a high computational cost due to its temporal dependency. Moreover, BPTT and its approximations solely utilize causal information derived from the spiking activity to compute the synaptic updates, thus neglecting non-causal relationships. In this work, we propose S-TLLR, a novel three-factor temporal local learning rule inspired by the Spike-Timing Dependent Plasticity (STDP) mechanism, aimed at training SNNs on event-based learning tasks. S-TLLR considers both causal and non-causal relationships between pre and post-synaptic activities, achieving performance comparable to BPTT and enhancing performance relative to methods using only causal information. Furthermore, S-TLLR has low memory and time complexity, which is independent of the number of time steps, rendering it suitable for online learning on low-power devices. To demonstrate the scalability of our proposed method, we have conducted extensive evaluations on event-based datasets spanning a wide range of applications, such as image and gesture recognition, audio classification, and optical flow estimation. In all the experiments, S-TLLR achieved high accuracy with a reduction in the number of computations between 1.1−10×.},
+  year={2025},
+  abstract={Spiking Neural Networks (SNNs) are biologically plausible models that have been identified as potentially apt for deploying energy-efficient intelligence at the edge, particularly for sequential learning tasks. However, training of SNNs poses significant challenges due to the necessity for precise temporal and spatial credit assignment. Back-propagation through time (BPTT) algorithm, whilst the most widely used method for addressing these issues, incurs high computational cost due to its temporal dependency. In this work, we propose S-TLLR, a novel three-factor temporal local learning rule inspired by the Spike-Timing Dependent Plasticity (STDP) mechanism, aimed at training deep SNNs on event-based learning tasks. Furthermore, S-TLLR is designed to have low memory and time complexities, which are independent of the number of time steps, rendering it suitable for online learning on low-power edge devices. To demonstrate the scalability of our proposed method, we have conducted extensive evaluations on event-based datasets spanning a wide range of applications, such as image and gesture recognition, audio classification, and optical flow estimation. S-TLLR achieves comparable accuracy to BPTT (within ±2% for most tasks), while reducing memory usage by 5-50× and multiply-accumulate (MAC) operations by 1.3-6.6×, particularly when updates are restricted to the last few time-steps.},
   arxiv={2306.15220},
+  issn={2835-8856},
+  url={https://openreview.net/forum?id=CNaiJRcX84},
+  html={https://openreview.net/forum?id=CNaiJRcX84},
   selected={true},
   code={https://github.com/mapolinario94/S-TLLR},
  }
