@@ -7,13 +7,15 @@
 @ARTICLE{Apolinario2025b,
   abbr={WACV},
   author={M. P. E. {Apolinario} and A. {Roy} and K. {Roy}},
-  journal={Accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  journal={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   title={LLS: Local Learning Rule for Deep Neural Networks Inspired by Neural Activity Synchronization},
   year={2025},
   abstract={Training deep neural networks (DNNs) using traditional backpropagation (BP) presents challenges in terms of computational complexity and energy consumption, particularly for on-device learning where computational resources are limited. Various alternatives to BP, including random feedback alignment, forward-forward, and local classifiers, have been explored to address these challenges. These methods have their advantages, but they can encounter difficulties when dealing with intricate visual tasks or demand considerable computational resources. In this paper, we propose a novel Local Learning rule inspired by neural activity Synchronization phenomena (LLS) observed in the brain. LLS utilizes fixed periodic basis vectors to synchronize neuron activity within each layer, enabling efficient training without the need for additional trainable parameters. We demonstrate the effectiveness of LLS and its variations, LLS-M and LLS-MxM, on multiple image classification datasets, achieving accuracy comparable to BP with reduced computational complexity and minimal additional parameters. Furthermore, the performance of LLS on the Visual Wake Word (VWW) dataset highlights its suitability for on-device learning tasks, making it a promising candidate for edge hardware implementations.},
   arxiv={2405.15868},
   selected={true},
   code={https://github.com/mapolinario94/LLS-DNN},
+  url={https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html},
+  html={https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html},
  }
 
 
@@ -31,11 +33,11 @@ html={https://ieeexplore.ieee.org/document/10546699},
 
 @ARTICLE{Apolinario2024b,
   abbr={arXiv},
-  author={M. P. E. {Apolinario} and K. {Roy}},
+  author={M. P. E. {Apolinario} ans S. {Choudhary} and K. {Roy}},
   journal={Under Review},
-  title={CODE-CL: COnceptor-Based Gradient Projection for DEep Continual Learning},
-  year={2024},
-  abstract={Continual learning, or the ability to progressively integrate new concepts, is fundamental to intelligent beings, enabling adaptability in dynamic environments. In contrast, artificial deep neural networks face the challenge of catastrophic forgetting when learning new tasks sequentially. To alleviate the problem of forgetting, recent approaches aim to preserve essential weight subspaces for previous tasks by limiting updates to orthogonal subspaces via gradient projection. While effective, this approach can lead to suboptimal performance, particularly when tasks are highly correlated. In this work, we introduce COnceptor-based gradient projection for DEep Continual Learning (CODE-CL), a novel method that leverages conceptor matrix representations, a computational model inspired by neuroscience, to more flexibly handle highly correlated tasks. CODE-CL encodes directional importance within the input space of past tasks, allowing new knowledge integration in directions modulated by 1−S, where S represents the direction's relevance for prior tasks. Additionally, we analyze task overlap using conceptor-based representations to identify highly correlated tasks, facilitating efficient forward knowledge transfer through scaled projection within their intersecting subspace. This strategy enhances flexibility, allowing learning in correlated tasks without significantly disrupting previous knowledge. Extensive experiments on continual learning image classification benchmarks validate CODE-CL's efficacy, showcasing superior performance with minimal forgetting, outperforming most state-of-the-art methods.},
+  title={CODE-CL: Conceptor-Based Gradient Projection for Deep Continual Learning},
+  year={2025c},
+  abstract={Continual learning (CL) - the ability to progressively acquire and integrate new concepts - is essential to intelligent systems to adapt to dynamic environments. However, deep neural networks struggle with catastrophic forgetting (CF) when learning tasks sequentially, as training for new tasks often overwrites previously learned knowledge. To address this, recent approaches constrain updates to orthogonal subspaces using gradient projection, effectively preserving important gradient directions for previous tasks. While effective in reducing forgetting, these approaches inadvertently hinder forward knowledge transfer (FWT), particularly when tasks are highly correlated. In this work, we propose Conceptor-based gradient projection for Deep Continual Learning (CODE-CL), a novel method that leverages conceptor matrix representations, a form of regularized reconstruction, to adaptively handle highly correlated tasks. CODE-CL mitigates CF by projecting gradients onto pseudo-orthogonal subspaces of previous task feature spaces while simultaneously promoting FWT. It achieves this by learning a linear combination of shared basis directions, allowing efficient balance between stability and plasticity and transfer of knowledge between overlapping input feature representations. Extensive experiments on continual learning benchmarks validate CODE-CL's efficacy, demonstrating superior performance, reduced forgetting, and improved FWT as compared to state-of-the-art methods.},
   arxiv={2411.15235},
   selected={true},
  }
