@@ -24,3 +24,10 @@
 
 "DATE":
   color: "#003399"
+
+"IJCNN":
+  color: "#0b7002"
+
+"ICCV":
+  url: https://cvpr.thecvf.com/
+  color: "#00369f"
