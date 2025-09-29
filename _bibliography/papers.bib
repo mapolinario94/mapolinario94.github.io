@@ -4,6 +4,19 @@
 @string{aps = {American Physical Society,}}
 
 
+@ARTICLE{Apolinario2025e,
+  abbr={arXiv},
+  author={M. P. E. {Apolinario} and K. {Roy}},
+  journal={arXiv preprint},
+  title={LANCE: Low Rank Activation Compression for Efficient On-Device Continual Learning},
+  year={2025},
+  abstract={On-device learning is essential for personalization, privacy, and long-term adaptation in resource-constrained environments. Achieving this requires efficient learning, both fine-tuning existing models and continually acquiring new tasks without catastrophic forgetting. Yet both settings are constrained by high memory cost of storing activations during backpropagation. Existing activation compression methods reduce this cost but relying on repeated low-rank decompositions, introducing computational overhead. Also, such methods have not been explored for continual learning. We propose LANCE (Low-rank Activation Compression), a framework that performs one-shot higher-order Singular Value Decompsoition (SVD) to obtain a reusable low-rank subspace for activation projection. This eliminates repeated decompositions, reducing both memory and computation. Moreover, fixed low-rank subspaces further enable on-device continual learning by allocating tasks to orthogonal subspaces without storing large task-specific matrices. Experiments show that LANCE reduces activation storage up to 250 while maintaining accuracy comparable to full backpropagation on CIFAR-10/100, Oxford-IIIT Pets, Flowers102, and CUB-200 datasets. On continual learning benchmarks (Split CIFAR-100, Split MiniImageNet, 5-Datasets), it achieves performance competitive with orthogonal gradient projection methods at a fraction of the memory cost. These results position LANCE as a practical and scalable solution for efficient fine-tuning and continual learning on edge devices.},
+  arxiv={2509.21617},
+  selected={true},
+ }
+
+
+
 @ARTICLE{Apolinario2025b,
   abbr={WACV},
   author={M. P. E. {Apolinario} and A. {Roy} and K. {Roy}},
