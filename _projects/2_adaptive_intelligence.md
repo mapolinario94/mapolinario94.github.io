@@ -13,9 +13,9 @@ Deep neural networks today excel at learning complex representations from massiv
 
 In contrast, natural intelligence learns **continuously** and **adaptively**. The brain integrates new experiences without erasing the past, leveraging distributed representations and sparse updates to maintain a stable sense of the world.
 
-My research explores a simple yet profound question:
+A central question motivates my research:
 
-> *Can we build artificial systems that learn like the brain — efficiently, continuously, and autonomously on the edge?*
+> *Can we engineer learning systems that continuously evolve and improve on-device, without relying on cloud retraining or external memory?*
 
 This question guides my work on **adaptive intelligence** — algorithms that allow deep networks to learn new tasks sequentially while preserving prior knowledge, all under the strict memory and energy constraints of embedded devices.
 
