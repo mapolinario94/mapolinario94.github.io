@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Marco Paul E. Apolinario Lainez
+      value: Marco P. E. Apolinario
     #- name: Date of Birth
     #  value: 14th March 1879
     - name: Languages
@@ -13,10 +13,10 @@
   contents:
     - title: PhD in Electrical and Computer Engineering
       institution: Purdue University, West Lafayette, Indiana, US
-      year: 2021 - Present
+      year: 2021 - 2025
       description:
         - <a>Advisor:</a> Prof. Kaushik Roy.
-        - <a>Research Topic:</a> Brain-Inspired Computing.
+        - <a>Research Topic:</a> hardware-software co-design for brain-inspired AI systems
         - <a>GPA:</a> 3.9.
     - title: BS in Electronics Engineering
       institution: National University of Engineering (UNI), Lima, Peru
@@ -28,9 +28,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: Purdue University - Center for Brain-Inspired Computing (C-BRIC), West Lafayette, Indiana, US
+      year: 2021 - Present
+      description:
+        - Conduct research on neuro-inspired machine learning algorithms for emerging hardware technologies, with emphasis on scalability and energy efficiency in neuromorphic systems.
+        - Developed CODE-CL, a continual learning framework using conceptor-based gradient projection, enabling knowledge retention and forward transfer in sequential tasks.
+        - Designed an ADC-less in-memory computing hardware for Spiking Neural Networks, achieving 2–7× energy savings and 9–24× latency reduction over conventional architectures through HW/SW co-design.
+        - Proposed novel spatial, temporal, and fully local learning rules (LLS, S-TLLR, TESS), inspired by biologically plausible mechanisms such as STDP, synchronization, and eligibility traces; matched backpropagation performance at significantly lower computational cost.
     - title: Visiting Researcher
       institution: TU Delft – Cognitive Sensor Nodes and Systems (CogSys) Team, Delft, Netherlands
-      year: 2024 - Present
+      year: 2024 - 2024
       description:
         - Conducted research on custom digital hardware accelerators for on-device learning using local learning rules in artificial neural networks, supported by the NSF AccelNet NeuroPAC Fellowship.
     - title: Systems Engineering Intern
@@ -38,22 +46,15 @@
       year: 2023 - 2023
       description:
         - Conducted research into hardware-aware neural architecture and quantization search, leveraging evolutionary optimization algorithms to facilitate the deployment of deep learning models on low-power devices. Achieved a 10x reduction in model search time and a 5% increase in model performance for keyword spotting tasks.
-    - title: Graduate Research Assistant
-      institution: Purdue University - Center for Brain-Inspired Computing (C-BRIC), West Lafayette, Indiana, US
-      year: 2021 - Present
-      description:
-        - Conducted research on neuro-inspired machine learning algorithms for emerging hardware technologies, focusing on scalability and energy efficiency in neuromorphic systems.
-        - Designed a novel ADC-Less In-memory Computing Hardware, specifically optimized for Spiking Neural Networks, employing a collaborative HW/SW co-design approach. This resulted in remarkable energy savings of 2-7x and latency reductions of 9-24x when compared to traditional architectures.
-        - Engineered and implemented a novel temporal local learning rule (S-TLLR) for Spiking Neural Networks, drawing inspiration from the STDP mechanism. This approach demonstrated equivalent performance to the BPTT algorithm across various time-dependent tasks with 1.3-6.6x reduction in memory usage.
     - title: Research Assistant in Computer Vision
       institution: National Institute for Research and Training in Telecommunications (INICTEL-UNI), Lima, Peru
       year: 2017 - 2020
       description:
-        - Contributed to the development of various machine learning models for different applications, including timber species identification, underwater acoustic inversion, satellite cloud segmentation, and river level estimation.
-        - Integrated machine learning algorithms into low-power electronic systems to enable real-time inference capabilities for precision agriculture applications.
-        - Innovated by proposing a lightweight CNN model designed for recognizing timber species in microscope images, achieving accuracy rates exceeding 90%, even in scenarios with open-set conditions.
-        - Obtained three software copyrights, covering applications in remote sensing and health monitoring.
-        - Shared insights through scholarly contributions, including one journal paper and three conference papers.
+        - Developed energy-efficient machine learning models for diverse applications, including timber species identification, underwater acoustic inversion, satellite cloud segmentation, and river level estimation.
+        - Integrated ML algorithms into low-power embedded systems, enabling real-time inference for precision agriculture applications.
+        - Designed a lightweight CNN achieving >90% accuracy in timber species recognition under open-set conditions.
+        - Secured three software copyrights in remote sensing and health monitoring.
+        - Published one journal paper and three conference papers.
 
 
     #- title: Director
@@ -82,15 +83,15 @@
     - title: NSF AccelNet NeuroPAC Fellowship
       institution: NSF AccelNet NeuroPAC
       year: 2024
-      description: Awarded for conducting research on a digital on-chip learning hardware accelerator at Delft University of Technology (TU Delft).
+      description: Selective international fellowship supporting cross-border collaborations in neuromorphic computing; awarded to conduct research on digital on-chip learning hardware accelerators at TU Delft.
     - title: Graduate Peruvian Fellowship "Beca Generacion del Bicentenario"
       institution: Peruvian Ministry of Education (PRONABEC)
       year: 2020
-      description: Fully funded by the Peruvian Ministry of Education, recognizing outstanding professionals with high potential for innovation and research in graduate studies.
+      description: Prestigious national fellowship fully funded by the Peruvian Ministry of Education; awarded to top scholars across Peru to pursue graduate studies abroad.
     - title: <a>"Julio Urbina Arias"</a> Award 
       institution: IEEE Student Branch at the National University of Engineering (UNI)
       year: 2017
-      description: Recognized for exceptional contributions to research and leadership within the IEEE Student Branch at the National University of Engineering, Lima, Peru.
+      description: Recognition for outstanding research and leadership contributions as an active member of the IEEE Student Branch, National University of Engineering, Lima, Peru.
       
     #- year: 1921
     #  items: 
@@ -115,48 +116,17 @@
 - title: Academic Service
   type: list
   contents:
-    - <u>Reviewed for IEEE Journals:</u> IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), and IEEE Latin America Transactions.
-    - <u>Reviewed for Conferences:</u> Neural Information Processing Systems (NeurIPS), International Conference on Artificial Neural Networks (ICANN) and IEEE INTERCON.
+    - <u>Reviewer for Journals:</u> IEEE Transactions on Image Processing, IEEE Transactions on Cognitive and Developmental Systems, IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), and IEEE Latin America Transactions.
+    - <u>Reviewer for Conferences:</u> International Conference on Machine Learning (ICML), International Conference on Computer Vision (ICCV), International Conference on Learning Representations (ICLR), Neural Information Processing Systems (NeurIPS), International Conference on Artificial Neural Networks (ICANN) and IEEE INTERCON.
 
 - title: Technical Strenghts
   type: list
   contents:
-    - <u>Programming and Hardware Description Languages (HDL):</u> Python, C++, VHDL/Verilog.
-    - <u>Machine Learning Frameworks:</u> Pytorch, Tensorflow/Keras.
-    - <u>EDA software:</u> Cadence Virtuoso, Quartus Prime, and Eagle PCB.
+    - <u>Programming and Hardware Description Languages:</u> Python, C/C++, VHDL/Verilog, and Git
+    - <u>EDA tools:</u> Cadence Virtuoso, Quartus Prime, and Eagle PCB
+    - <u>Machine Learning Frameworks:</u> Pytorch, Tensorflow/Keras
+    - <u>Languages:</u> English (fluent), Spanish (native)
 
-- title: Relevant Coursework
-  type: list
-  contents:
-    - <u>VLSI design courses:</u> Computer Architecture (Fall'23), System on Chip Design (Fall'22), Analog CMOS Design (Fall'22), Advanced VLSI Design (Spring'22), MOS VLSI Design (Fall'21), Solid State Devices (Spring'21).
-    - <u>Computer Science courses:</u> Applied Quantum Computing (Spring'23), Optimization for Deep Learning (Fall'23), Computational Methods in Optimization (Spring'22), Artificial Intelligence (Fall'21).
-
-- title: Course Projects
-  type: time_table
-  contents:
-    - title: Multi-bit dot-product operation with SRAM-cells [ECE695 – Advanced VLSI Design]
-      year: Spring 2022
-      description: 
-        - Implemented an analog-like in-memory multi-bit dot-product engine using standard 8T-SRAM cells.
-        - <a>Skills:</a> Cadence Virtuoso, mixed-signal design, and corner analysis.
-
-    - title: Compressed Sensing Algorithms [CS520 – Computational Methods in Optimization] 	
-      year: Spring 2022
-      description: 
-        - Programmed, compared, and applied three compressed sensing algorithms (OMP, GPSR, and SpaRSA) for audio signal compression, image reconstruction, and image classification applications.
-        - <a>Skills:</a> Python programming and optimization analysis.
-
-    - title: In-memory bitwise NOR operation with 8T-SRAM [ECE559 – MOS VLSI Design]
-      year: Fall 2021
-      description: 
-        - Designed and simulated a 128x16 8T-SRAM array to perform in-memory bitwise NOR operations.
-        - <a>Skills:</a> Cadence Virtuoso, layout design, and schematic design.
-
-    - title: Near-Lossless Analog to Spiking Neural Networks Conversion [ECE570 – Artificial Intelligence]
-      year: Fall 2021
-      description: 
-        - Studied the role of reset mechanism in ANN-to-SNN conversion schemes to train deep spiking networks.
-        - <a>Skills:</a> Python programming, PyTorch, and Deep Neural Networks.
 
 
     #- title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>

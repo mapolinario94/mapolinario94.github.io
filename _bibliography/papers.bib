@@ -4,7 +4,7 @@
 @string{aps = {American Physical Society,}}
 
 
-@ARTICLE{Apolinario2025e,
+@ARTICLE{Apolinario2025lance,
   abbr={arXiv},
   author={M. P. E. {Apolinario} and K. {Roy}},
   journal={arXiv preprint},
@@ -12,12 +12,12 @@
   year={2025},
   abstract={On-device learning is essential for personalization, privacy, and long-term adaptation in resource-constrained environments. Achieving this requires efficient learning, both fine-tuning existing models and continually acquiring new tasks without catastrophic forgetting. Yet both settings are constrained by high memory cost of storing activations during backpropagation. Existing activation compression methods reduce this cost but relying on repeated low-rank decompositions, introducing computational overhead. Also, such methods have not been explored for continual learning. We propose LANCE (Low-rank Activation Compression), a framework that performs one-shot higher-order Singular Value Decompsoition (SVD) to obtain a reusable low-rank subspace for activation projection. This eliminates repeated decompositions, reducing both memory and computation. Moreover, fixed low-rank subspaces further enable on-device continual learning by allocating tasks to orthogonal subspaces without storing large task-specific matrices. Experiments show that LANCE reduces activation storage up to 250 while maintaining accuracy comparable to full backpropagation on CIFAR-10/100, Oxford-IIIT Pets, Flowers102, and CUB-200 datasets. On continual learning benchmarks (Split CIFAR-100, Split MiniImageNet, 5-Datasets), it achieves performance competitive with orthogonal gradient projection methods at a fraction of the memory cost. These results position LANCE as a practical and scalable solution for efficient fine-tuning and continual learning on edge devices.},
   arxiv={2509.21617},
-  selected={true},
+  code={https://github.com/mapolinario94/LANCE},
  }
 
 
 
-@ARTICLE{Apolinario2025b,
+@ARTICLE{Apolinario2025lls,
   abbr={WACV},
   author={M. P. E. {Apolinario} and A. {Roy} and K. {Roy}},
   journal={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
@@ -44,7 +44,7 @@ html={https://ieeexplore.ieee.org/document/10546699},
  }
 
 
-@ARTICLE{Apolinario2025c,
+@ARTICLE{Apolinario2025codecl,
   abbr={ICCV},
   author={M. P. E. {Apolinario} and S. {Choudhary} and K. {Roy}},
   journal={International Conference on Computer Vision (ICCV)},
@@ -53,9 +53,11 @@ html={https://ieeexplore.ieee.org/document/10546699},
   abstract={Continual learning (CL) - the ability to progressively acquire and integrate new concepts - is essential to intelligent systems to adapt to dynamic environments. However, deep neural networks struggle with catastrophic forgetting (CF) when learning tasks sequentially, as training for new tasks often overwrites previously learned knowledge. To address this, recent approaches constrain updates to orthogonal subspaces using gradient projection, effectively preserving important gradient directions for previous tasks. While effective in reducing forgetting, these approaches inadvertently hinder forward knowledge transfer (FWT), particularly when tasks are highly correlated. In this work, we propose Conceptor-based gradient projection for Deep Continual Learning (CODE-CL), a novel method that leverages conceptor matrix representations, a form of regularized reconstruction, to adaptively handle highly correlated tasks. CODE-CL mitigates CF by projecting gradients onto pseudo-orthogonal subspaces of previous task feature spaces while simultaneously promoting FWT. It achieves this by learning a linear combination of shared basis directions, allowing efficient balance between stability and plasticity and transfer of knowledge between overlapping input feature representations. Extensive experiments on continual learning benchmarks validate CODE-CL's efficacy, demonstrating superior performance, reduced forgetting, and improved FWT as compared to state-of-the-art methods.},
   arxiv={2411.15235},
   selected={true},
+  code={https://github.com/mapolinario94/CODE-CL},
+  poster={CODE-CL-Poster-MarcoApolinario-ICCV.pdf},
  }
 
-@ARTICLE{Apolinario2025d,
+@ARTICLE{Apolinario2025tess,
   abbr={IJCNN},
   author={M. P. E. {Apolinario} and K. {Roy} and C. {Frenkel}},
   journal={International Joint Conference on Neural Networks (IJCNN)},
@@ -67,7 +69,7 @@ html={https://ieeexplore.ieee.org/document/10546699},
   code={https://github.com/mapolinario94/TESS},
  }
 
-@ARTICLE{Apolinario2025a,
+@ARTICLE{Apolinario2025stllr,
   abbr={TMLR},
   author={M. P. E. {Apolinario} and K. {Roy}},
   journal={Transactions on Machine Learning Research (TMLR)},
@@ -80,6 +82,7 @@ html={https://ieeexplore.ieee.org/document/10546699},
   html={https://openreview.net/forum?id=CNaiJRcX84},
   selected={true},
   code={https://github.com/mapolinario94/S-TLLR},
+  poster={S-TLLR-Poster-MarcoApolinario-NeVi.pdf},
  }
 
 
@@ -100,7 +103,7 @@ html={https://ieeexplore.ieee.org/document/10546699},
 
 
 
-@inproceedings{Biswas2023,
+@inproceedings{Biswas2023halsie,
   abbr={WACV},
   author={S. {Biswas} and A. {Kosta} and C. {Liyanagedera} and M. P. E. {Apolinario} and K. {Roy}},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
@@ -113,7 +116,7 @@ html={https://ieeexplore.ieee.org/document/10546699},
   html={https://openaccess.thecvf.com/content/WACV2024/papers/Biswas_HALSIE_Hybrid_Approach_to_Learning_Segmentation_by_Simultaneously_Exploiting_Image_WACV_2024_paper.pdf},
  }
 
-@ARTICLE{Apolinario2023,
+@ARTICLE{Apolinario2023adcless,
   abbr={TETC},
   author={M. P. E. {Apolinario} and A. {Kosta} and U. {Saxena} and K. {Roy}},
   journal={IEEE Transactions on Emerging Topics in Computing},
@@ -124,7 +127,6 @@ html={https://ieeexplore.ieee.org/document/10546699},
   arxiv={2211.02167},
   url={https://doi.org/10.1109/TETC.2023.3316121},
   html={https://doi.org/10.1109/TETC.2023.3316121},
-  selected={true},
  }
 
 

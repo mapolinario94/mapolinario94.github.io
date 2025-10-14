@@ -8,7 +8,7 @@ middle_name: P.
 last_name: Apolinario
 email: mapolina@purdue.edu
 description: #> # the ">" symbol means to ignore newlines until "footer_text:"
-  This is my personal academic website where I will share some info about the projects I am working on, my research interests, and some news. Also, I will publish a blog focus on topics about neuromorphic computing, computer vision, and applications.
+  This is the academic website of Marco P. Apolinario, a researcher focused on hardware/software co-design for brain-inspired computing. This site provides a comprehensive overview of my work, including publications, research projects, and professional news. Additionally, the blog serves as a platform for commentary and discussion on developments in neuromorphic computing, computer vision, and related applications.
 footer_text: >
   
 keywords: ai, neuromorphic, academic-website, vlsi, snn  # add your own keywords or leave empty
@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
