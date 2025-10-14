@@ -3,7 +3,7 @@ layout: page
 title: Adaptive Intelligence
 description: Enabling Continual Learning on the Edge
 img: assets/img/adaptive_intelligence.png
-og_image: /assets/img/adaptive_intelligence.png
+og_image: https://mapolinario94.github.io/assets/img/adaptive_intelligence.png
 importance: 2
 category: research
 related_publications: true

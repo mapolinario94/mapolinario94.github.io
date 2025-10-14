@@ -3,7 +3,7 @@ layout: page
 title: Beyond Backprop
 description: Teaching AI to Learn Like the Brain
 img: assets/img/beyond_backprop.png
-og_image: assets/img/beyond_backprop.png
+og_image: https://mapolinario94.github.io/assets/img/beyond_backprop.png
 importance: 1
 category: research
 related_publications: true
