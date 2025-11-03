@@ -3,6 +3,17 @@
 
 @string{aps = {American Physical Society,}}
 
+@ARTICLE{Roy2025locallearning,
+  abbr={arXiv},
+  author={A. {Roy} and M. P. E. {Apolinario} and S. {Biswas} and K. {Roy}},
+  journal={arXiv preprint},
+  title={Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for Local Learning},
+  year={2025},
+  abstract={Training deep neural networks (DNNs) with backpropagation (BP) achieves state-of-the-art accuracy but requires global error propagation and full parameterization, leading to substantial memory and computational overhead. Direct Feedback Alignment (DFA) enables local, parallelizable updates with lower memory requirements but is limited by unstructured feedback and poor scalability in deeper architectures, specially convolutional neural networks. To address these limitations, we propose a structured local learning framework that operates directly on low-rank manifolds defined by the Singular Value Decomposition (SVD) of weight matrices. Each layer is trained in its decomposed form, with updates applied to the SVD components using a composite loss that integrates cross-entropy, subspace alignment, and orthogonality regularization. Feedback matrices are constructed to match the SVD structure, ensuring consistent alignment between forward and feedback pathways. Our method reduces the number of trainable parameters relative to the original DFA model, without relying on pruning or post hoc compression. Experiments on CIFAR-10, CIFAR-100, and ImageNet show that our method achieves accuracy comparable to that of BP. Ablation studies confirm the importance of each loss term in the low-rank setting. These results establish local learning on low-rank manifolds as a principled and scalable alternative to full-rank gradient-based training.},
+  arxiv={2510.25594}
+ }
+
+
 
 @ARTICLE{Apolinario2025lance,
   abbr={arXiv},
