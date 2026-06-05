@@ -11,7 +11,7 @@ profile:
   more_info: >
     <div class="social">
       <div class="contact-icons-small">
-        <a href="mailto:mapolina@purdue.edu" title="email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="mailto:M.ApolinarioLainez@tudelft.nl" title="email"><i class="fa-solid fa-envelope"></i></a>
         <a href="https://scholar.google.com/citations?hl=en&user=a9JiVBQAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
         <a href="https://www.linkedin.com/in/marco-apolinario" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/mapolinario94" title="GitHub"><i class="fa-brands fa-github"></i></a>
