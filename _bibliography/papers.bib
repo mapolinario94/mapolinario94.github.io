@@ -3,6 +3,19 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@ARTICLE{Awasthi2026mango,
+  abbr={arXiv},
+  author={A. {Awasthi} and M. P. E. {Apolinario} and K. {Roy}},
+  journal={arXiv preprint},
+  title={MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning},
+  year={2026},
+  abstract={In Online Continual Learning (OCL), a neural network sequentially learns from a non-stationary data stream in a single-pass with access only to a limited memory replay buffer. This contrasts sharply with off-line continual learning where training is multiple epoch dependent on large datasets. The main challenge faced by OCL is to overcome catastrophic forgetting of past tasks (stability) while learning new ones efficiently (plasticity). Existing methods counter forgetting via replay-based rehearsal, output level distillation, fixed regularization, or meta-learning on the current data. However, these methods have limitations: rehearsal introduces a stored sample bias; distillation operates on output-distributions without modulating parameter updates; fixed-regularization penalizes parameters irrespective of sensitivity; stream-only meta-learning lacks a feedback controlled parameter update. We propose Meta-Adaptive Network Gradient Optimization (MANGO), an OCL framework that balances stability-plasticity via gradient-gating and meta-learned regularization. Gradient-gating scales parameter updates based on sensitivity, preventing destructive updates. Meta-learned regularization adapts stability coefficients, evaluating the effect of parameter update on replay. In MANGO, replay acts as both a training signal and a forgetting evaluator. We evaluated our method on three standard OCL benchmark datasets. MANGO outperforms strong baselines, achieving state-of-the-art results with consistent performance across replay sizes. In domain incremental learning on CLEAR-10 and class incremental learning on CIFAR-100 and Tiny-ImageNet, it achieves highest accuracy among all baselines and achieves positive Backward Transfer, overcoming forgetting on CLEAR-10.},
+  arxiv={2605.19080},
+ }
+
+
+
 @ARTICLE{Roy2026locallearning,
   abbr={WACV},
   author={A. {Roy} and M. P. E. {Apolinario} and S. {Biswas} and K. {Roy}},
