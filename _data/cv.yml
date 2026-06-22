@@ -3,10 +3,16 @@
   contents:
     - name: Full Name
       value: Marco P. E. Apolinario
-    #- name: Date of Birth
-    #  value: 14th March 1879
     - name: Languages
-      value: English, Spanish
+      value: English (fluent), Spanish (native)
+
+- title: Research Interests
+  type: list
+  contents:
+    - Memory-efficient learning algorithms for on-device adaptation under hardware constraints.
+    - Continual learning and in-context adaptation in deep neural networks.
+    - Biologically-inspired local learning rules and gradient-free optimization.
+    - Algorithm-hardware co-design for energy-efficient, brain-inspired AI.
 
 - title: Education
   type: time_table
@@ -16,7 +22,7 @@
       year: 2021 - 2025
       description:
         - <a>Advisor:</a> Prof. Kaushik Roy.
-        - <a>Research Topic:</a> hardware-software co-design for brain-inspired AI systems
+        - <a>Research Topic:</a> hardware-software co-design for brain-inspired AI systems.
         - <a>GPA:</a> 3.9.
     - title: BS in Electronics Engineering
       institution: National University of Engineering (UNI), Lima, Peru
@@ -28,22 +34,30 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Researcher
+      institution: Delft University of Technology (TU Delft), Delft, Netherlands
+      year: 2026 - Present
+      description:
+        - <a>Advisor:</a> Prof. Charlotte Frenkel.
+        - Research on hardware-algorithm co-design for NeuroAI.
     - title: Graduate Research Assistant
       institution: Purdue University - Center for Brain-Inspired Computing (C-BRIC), West Lafayette, Indiana, US
-      year: 2021 - Present
+      year: 2021 - 2025
       description:
+        - <a>Advisor:</a> Prof. Kaushik Roy.
         - Conduct research on neuro-inspired machine learning algorithms for emerging hardware technologies, with emphasis on scalability and energy efficiency in neuromorphic systems.
         - Developed CODE-CL, a continual learning framework using conceptor-based gradient projection, enabling knowledge retention and forward transfer in sequential tasks.
         - Designed an ADC-less in-memory computing hardware for Spiking Neural Networks, achieving 2–7× energy savings and 9–24× latency reduction over conventional architectures through HW/SW co-design.
         - Proposed novel spatial, temporal, and fully local learning rules (LLS, S-TLLR, TESS), inspired by biologically plausible mechanisms such as STDP, synchronization, and eligibility traces; matched backpropagation performance at significantly lower computational cost.
     - title: Visiting Researcher
       institution: TU Delft – Cognitive Sensor Nodes and Systems (CogSys) Team, Delft, Netherlands
-      year: 2024 - 2024
+      year: 2024
       description:
-        - Conducted research on custom digital hardware accelerators for on-device learning using local learning rules in artificial neural networks, supported by the NSF AccelNet NeuroPAC Fellowship.
+        - <a>Advisor:</a> Prof. Charlotte Frenkel.
+        - Conducted a three-month research visit on custom digital hardware accelerators for on-device learning using local learning rules in artificial neural networks, supported by the NSF AccelNet NeuroPAC Fellowship.
     - title: Systems Engineering Intern
       institution: Texas Instruments - Kilby Labs, Dallas, Texas, US
-      year: 2023 - 2023
+      year: 2023
       description:
         - Conducted research into hardware-aware neural architecture and quantization search, leveraging evolutionary optimization algorithms to facilitate the deployment of deep learning models on low-power devices. Achieved a 10x reduction in model search time and a 5% increase in model performance for keyword spotting tasks.
     - title: Research Assistant in Computer Vision
@@ -56,30 +70,13 @@
         - Secured three software copyrights in remote sensing and health monitoring.
         - Published one journal paper and three conference papers.
 
-
-    #- title: Director
-    #  institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #  year: 1917-1933
-
-    #- title: Professor of Theoretical Physics
-    #  institution: Karl-Ferdinand University, Prague, Czechoslovakia
-    #  year: 1911 - 1917
-    #  description:
-
-    #- title: Associate Professor of Theoretical Physics
-    #  institution: University of Zurich, Zurich, Switzerland
-    #  year: 1909 - 1911
-
-#- title: Open Source Projects
-#  type: time_table
-#  contents:
-#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#      year: 2015-now
-#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Best Student Paper Award, WACV 2026
+      institution: IEEE/CVF WACV
+      year: 2026
+      description: 'Awarded for "Feedback Alignment Meets Low-Rank Manifolds -- A Structured Recipe for Local Learning" in the algorithms track of IEEE/CVF WACV 2026.'
     - title: NSF AccelNet NeuroPAC Fellowship
       institution: NSF AccelNet NeuroPAC
       year: 2024
@@ -88,52 +85,147 @@
       institution: Peruvian Ministry of Education (PRONABEC)
       year: 2020
       description: Prestigious national fellowship fully funded by the Peruvian Ministry of Education; awarded to top scholars across Peru to pursue graduate studies abroad.
-    - title: <a>"Julio Urbina Arias"</a> Award 
+    - title: Julio Urbina Arias Award
       institution: IEEE Student Branch at the National University of Engineering (UNI)
       year: 2017
       description: Recognition for outstanding research and leadership contributions as an active member of the IEEE Student Branch, National University of Engineering, Lima, Peru.
-      
-    #- year: 1921
-    #  items: 
-    #    - Nobel Prize in Physics 
-    #    - Matteucci Medal
-    #- year: 2029
-    #  items: 
-    #    - Max Planck Medal
 
-#- title: Academic Interests
-#  type: nested_list
-#  contents:
-#    - title: Topic 1.
-#      items: 
-#        - Description 1.
-#        - Description 2.
-#    - title: Topic 2.
-#      items:
-#        - Description 1.
-#        - Description 2.
+- title: Registered Software / Intellectual Property
+  type: time_table
+  contents:
+    - title: SM-GROVER
+      year: Feb 2022
+      description:
+        - Geo-referenced monitoring system for COVID-19 with virtual assistant and respiratory-rate estimation. Software IP registration, INDECOPI 00376-2022. Co-developer.
+    - title: SINIM-1
+      year: Jun 2021
+      description:
+        - Cloud identification in multispectral satellite imagery. Software IP registration, INDECOPI 00740-2021. Co-developer.
+    - title: KASPI
+      year: Mar 2021
+      description:
+        - Mobile application for identification of Peruvian timber species. Software IP registration, INDECOPI 00294-2021. Co-developer.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Instructor, Short Course on Digital Image Processing (24 hours)
+      institution: INICTEL-UNI, Lima, Peru
+      year: Jan 2020
+      description:
+        - Designed and delivered a 24-hour short course on digital image processing for early-career engineers and students.
+    - title: Workshop Instructor, IEEE Student Branch
+      institution: National University of Engineering (UNI), Lima, Peru
+      year: 2015 - 2017
+      description:
+        - Taught hands-on workshops on signal and image processing and introductory machine learning for undergraduate audiences as part of the IEEE Signal Processing Society and Robotics & Automation Society student chapters.
+
+- title: Mentorship and Outreach
+  type: time_table
+  contents:
+    - title: Mentor, Talento Guía (PRONABEC, Peru National Scholarship Program)
+      year: 2025 - Present
+      description:
+        - Mentor for incoming Peruvian graduate students abroad (Beca Generación del Bicentenario Fellows), providing academic, cultural, and professional guidance for their transition to international graduate programs.
+    - title: Mentor, Serendipity: Mentorship in Science Program
+      year: 2021 - 2022
+      description:
+        - Mentored Peruvian undergraduate students in STEM on career development, research opportunities, and pathways to graduate school.
+    - title: Speaker - STEM Outreach
+      year: 2020 - Present
+      description:
+        - Invited speaker at IEEE and university events in Peru, promoting undergraduate research and STEM engagement.
+    - title: Vice Chair, IEEE Signal Processing Society Student Chapter
+      institution: National University of Engineering (UNI), Peru
+      year: 2016 - 2017
+      description:
+        - Co-founded the first IEEE Signal Processing Society Student Chapter in Peru; promoted undergraduate-led research projects in signal and image processing.
+    - title: Research Director, IEEE Robotics and Automation Society Student Chapter
+      institution: National University of Engineering (UNI), Peru
+      year: 2015 - 2016
+      description:
+        - Led student research groups in robotics and computer vision; organized national robotics competitions, technical talks, and workshops.
+
+- title: Travel Grants
+  type: time_table
+  contents:
+    - title: LatinX in AI (LXAI) Travel Grant - NeurIPS
+      location: San Diego, CA, USA
+      year: 2025
+      description:
+        - Competitively awarded grant supporting participation and presentation at the LatinX in AI Research Workshop co-located with NeurIPS.
+    - title: ICCV Broadening Participation Travel Grant
+      location: Honolulu, HI, USA
+      year: 2025
+      description:
+        - Awarded for conference participation based on scientific contribution, need, and commitment to broadening participation within the ICCV community.
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: Energy-Efficient Brain-Inspired Learning in Deep Neural Networks
+      institution: IEEE Signal Processing Society student chapter, National University of Engineering, Lima, Peru (online)
+      year: Apr 2025
+    - title: Local Learning for Deep Neural Networks
+      institution: Data Management and Biometrics Group, University of Twente, The Netherlands
+      year: Nov 2024
+    - title: Neuromodulation on Brain and Machines
+      institution: Telluride Neuromorphic Cognition Engineering Workshop, Telluride, CO, USA (co-presented with Dr. Kathryn Simone)
+      year: Jul 2024
+    - title: Hardware/Software Co-design with ADC-Less In-Memory Computing for SNNs
+      institution: In-Memory Computing Applications Workshop at DAC 2024, San Francisco, CA, USA
+      year: Jun 2024
+    - title: Enabling High-Performance ADC-Less In-Memory Computing for Deploying SNNs Through Hardware-Aware Training
+      institution: Workshop on Modeling & Simulation of Systems and Applications (ModSim23), Seattle, WA, USA
+      year: Aug 2023
+    - title: Experiencia estudiando un posgrado en EEUU - Becas y oportunidades
+      institution: IEEE Signal Processing Society student chapter, National University of Engineering, Lima, Peru (online)
+      year: Jul 2021
 
 - title: Academic Service
   type: list
   contents:
-    - <u>Reviewer for Journals:</u> IEEE Transactions on Image Processing, IEEE Transactions on Cognitive and Developmental Systems, IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), and IEEE Latin America Transactions.
-    - <u>Reviewer for Conferences:</u> International Conference on Machine Learning (ICML), International Conference on Computer Vision (ICCV), International Conference on Learning Representations (ICLR), Neural Information Processing Systems (NeurIPS), International Conference on Artificial Neural Networks (ICANN) and IEEE INTERCON.
+    - <u>Review Committee Member (RCM):</u> IEEE International Symposium on Circuits and Systems (ISCAS), 2025 -- coordinated the peer-review process for three papers, synthesizing feedback from multiple reviewers and submitting preliminary decisions (role analogous to Associate Editor / Area Chair).
+    - <u>Reviewer for Journals:</u> IEEE Transactions on Image Processing (TIP), IEEE Transactions on Cognitive and Developmental Systems (TCDS), IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), and IEEE Latin America Transactions.
+    - <u>Reviewer for Conferences:</u> NeurIPS (2024, 2025), ICLR (2025, 2026), ICML (2025), ICCV (2025), ECCV (2026), AAAI (2026), CVPR (2025), IJCNN (2025), ICANN (2024, 2025), and IEEE INTERCON (2024).
+
+- title: In the Press
+  type: time_table
+  contents:
+    - title: Interview in <a>APTC La Revista</a> (magazine of the Peruvian Telecommunications Association)
+      year: 2026
+      description:
+        - '"El cerebro humano es la computadora más eficiente" ["The human brain is the most efficient computer"].'
+      linkitems:
+        - link: https://aptcperu.org/aptc-la-revista/#flipbook-df_26047/30/
+          linkname: View Article
+
+- title: Professional Development
+  type: time_table
+  contents:
+    - title: Telluride Neuromorphic Cognition Engineering Workshop
+      year: 2024
+      description:
+        - Highly selective international workshop; hands-on projects on neuromodulation mechanisms for synaptic plasticity and reinforcement learning.
+    - title: SRC TECHCON
+      year: 2024
+      description:
+        - Semiconductor Research Corporation's flagship annual conference, Austin, TX, engaging with industry leaders on advances in semiconductor and AI research.
+    - title: Neuromatch Academy - Computational Neuroscience Summer School
+      year: 2021
+      description:
+        - Intensive online summer school on computational neuroscience, exploring parallels between artificial neural networks and in-vivo brain responses to visual stimuli.
 
 - title: Technical Strengths
   type: list
   contents:
     - <u>Programming and Hardware Description Languages:</u> Python, C/C++, VHDL/Verilog, and Git
     - <u>EDA tools:</u> Cadence Virtuoso, Quartus Prime, and Eagle PCB
-    - <u>Machine Learning Frameworks:</u> Pytorch, Tensorflow/Keras
+    - <u>Machine Learning Frameworks:</u> PyTorch, TensorFlow/Keras
     - <u>Languages:</u> English (fluent), Spanish (native)
 
-
-
-    #- title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-    #  year: 2015 - now
-    #  description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-#- title: Other Interests
-#  type: list
-#  contents:
-#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Relevant Coursework
+  type: list
+  contents:
+    - <u>Graduate Electronics:</u> AI Hardware, Computer Architecture, System-on-Chip Design, Analog CMOS Design, Advanced VLSI Design, MOS VLSI Design, Solid State Devices
+    - <u>Graduate Computer Science:</u> Applied Quantum Computing, Optimization for Deep Learning, Computational Methods in Optimization, Artificial Intelligence
