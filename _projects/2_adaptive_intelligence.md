@@ -7,6 +7,7 @@ og_image: https://mapolinario94.github.io/assets/img/adaptive_intelligence.png
 importance: 2
 category: research
 related_publications: true
+pdf: adaptive_intelligence.pdf
 ---
 
 Deep neural networks today excel at learning complex representations from massive datasets — yet they remain inherently **static**. Once trained, they struggle to incorporate new knowledge without overwriting the old, a phenomenon known as *catastrophic forgetting*. Moreover, their reliance on global gradient backpropagation requires storing large activation maps and synchronizing updates across all layers — a process that is **energy-intensive** and **ill-suited for on-device intelligence**.

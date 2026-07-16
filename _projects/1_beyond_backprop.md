@@ -7,6 +7,7 @@ og_image: https://mapolinario94.github.io/assets/img/beyond_backprop.png
 importance: 1
 category: research
 related_publications: true
+pdf: beyond_backprop.pdf
 ---
 
 Deep neural networks today are powered by the backpropagation algorithm — a mathematical engine that computes global gradients by transmitting information backward through every layer and time step. Despite its success, this mechanism is neither efficient nor biologically plausible. It requires every neuron to know the state of all others, making learning energy-hungry and unsuitable for on-device intelligence. The human brain, in contrast, learns **locally**: each synapse adjusts its strength using only signals it can access — pre- and post-synaptic activity and modulatory feedback.  
