@@ -16,7 +16,7 @@ profile:
         <a href="https://www.linkedin.com/in/marco-apolinario" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/mapolinario94" title="GitHub"><i class="fa-brands fa-github"></i></a>
         <a href="https://twitter.com/mapolinario94" title="X"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="assets/pdf/cv_MarcoApolinario.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+        <a href="assets/pdf/cv_MarcoApolinario.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
       </div>
     </div>
     
