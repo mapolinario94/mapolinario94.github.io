@@ -31,3 +31,7 @@
 "ICCV":
   url: https://cvpr.thecvf.com/
   color: "#00369f"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#00c0fa"
