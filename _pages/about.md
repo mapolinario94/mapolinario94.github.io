@@ -15,7 +15,6 @@ profile:
         <a href="https://scholar.google.com/citations?hl=en&user=a9JiVBQAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
         <a href="https://www.linkedin.com/in/marco-apolinario" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/mapolinario94" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://twitter.com/mapolinario94" title="X"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="assets/pdf/cv_MarcoApolinario.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
       </div>
     </div>
