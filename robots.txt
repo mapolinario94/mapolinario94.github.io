@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mapolinario94.github.io/sitemap.xml
