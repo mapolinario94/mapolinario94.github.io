@@ -1,0 +1,255 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+
+@ARTICLE{Guedes2026Hypnos,
+  abbr={arXiv},
+  author={G. {Guedes} and M. P. E. {Apolinario} and C. {Frenkel}},
+  journal={arXiv preprint},
+  title={Hypnos: A Dual-Phase End-to-End Platform for Scalable Continual Learning at the Edge},
+  year={2026},
+  abstract={Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices. Yet, porting CL to real-world edge devices remains challenging for two reasons: (i) online operation, where sensor data arrives one sample at a time and the device must adapt on-the-fly, and (ii) the low footprint of edge devices, which makes traditional error backpropagation training prohibitive. Inspired by the brain's wake and sleep cycles, the former for rapid adaptation with minimal resources and the latter for long-term consolidation, we introduce Hypnos, an open-source dual-phase platform for efficient CL at the edge. In the wake phase (e.g., daily operation), Hypnos relies on a low-footprint system-on-chip with a RISC-V microcontroller unit (MCU) targeting efficient inference and supporting lightweight gradient-free prototype updates. In the sleep phase (e.g., night-time charging), where wall-plug energy and larger memory budgets are available, a smart charger performs rehearsal-based gradient updates for consolidation. Deployed on a ZCU104 field-programmable gate array (FPGA) and synthesized in a 28-nm process, Hypnos is benchmarked on the CORe50 NICv2-391 protocol. It sets a new state-of-the-art accuracy of 78.6%-81.6% for edge CL systems, with an on-device latency of 7.79s-10.54s per sample depending on activation precision, and requires 3.8x fewer learning steps and 22x less learning compute than quantized latent replay at higher accuracy and comparable latency.},
+  arxiv={2611.24637},
+ }
+
+@ARTICLE{Awasthi2026mango,
+  abbr={arXiv},
+  author={A. {Awasthi} and M. P. E. {Apolinario} and K. {Roy}},
+  journal={arXiv preprint},
+  title={MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning},
+  year={2026},
+  abstract={In Online Continual Learning (OCL), a neural network sequentially learns from a non-stationary data stream in a single-pass with access only to a limited memory replay buffer. This contrasts sharply with off-line continual learning where training is multiple epoch dependent on large datasets. The main challenge faced by OCL is to overcome catastrophic forgetting of past tasks (stability) while learning new ones efficiently (plasticity). Existing methods counter forgetting via replay-based rehearsal, output level distillation, fixed regularization, or meta-learning on the current data. However, these methods have limitations: rehearsal introduces a stored sample bias; distillation operates on output-distributions without modulating parameter updates; fixed-regularization penalizes parameters irrespective of sensitivity; stream-only meta-learning lacks a feedback controlled parameter update. We propose Meta-Adaptive Network Gradient Optimization (MANGO), an OCL framework that balances stability-plasticity via gradient-gating and meta-learned regularization. Gradient-gating scales parameter updates based on sensitivity, preventing destructive updates. Meta-learned regularization adapts stability coefficients, evaluating the effect of parameter update on replay. In MANGO, replay acts as both a training signal and a forgetting evaluator. We evaluated our method on three standard OCL benchmark datasets. MANGO outperforms strong baselines, achieving state-of-the-art results with consistent performance across replay sizes. In domain incremental learning on CLEAR-10 and class incremental learning on CIFAR-100 and Tiny-ImageNet, it achieves highest accuracy among all baselines and achieves positive Backward Transfer, overcoming forgetting on CLEAR-10.},
+  arxiv={2605.19080},
+ }
+
+
+
+@ARTICLE{Roy2026locallearning,
+  abbr={WACV},
+  author={A. {Roy} and M. P. E. {Apolinario} and S. {Biswas} and K. {Roy}},
+  journal={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  title={Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for Local Learning},
+  year={2026},
+  abstract={Training deep neural networks (DNNs) with backpropagation (BP) achieves state-of-the-art accuracy but requires global error propagation and full parameterization, leading to substantial memory and computational overhead. Direct Feedback Alignment (DFA) enables local, parallelizable updates with lower memory requirements but is limited by unstructured feedback and poor scalability in deeper architectures, specially convolutional neural networks. To address these limitations, we propose a structured local learning framework that operates directly on low-rank manifolds defined by the Singular Value Decomposition (SVD) of weight matrices. Each layer is trained in its decomposed form, with updates applied to the SVD components using a composite loss that integrates cross-entropy, subspace alignment, and orthogonality regularization. Feedback matrices are constructed to match the SVD structure, ensuring consistent alignment between forward and feedback pathways. Our method reduces the number of trainable parameters relative to the original DFA model, without relying on pruning or post hoc compression. Experiments on CIFAR-10, CIFAR-100, and ImageNet show that our method achieves accuracy comparable to that of BP. Ablation studies confirm the importance of each loss term in the low-rank setting. These results establish local learning on low-rank manifolds as a principled and scalable alternative to full-rank gradient-based training.},
+  arxiv={2510.25594},
+  award       = {Best Student Paper in the Algorithms Track at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026},
+  award_name  = {Best Student Paper Award},
+  video             = {https://www.youtube.com/watch?v=ddGA7Z_cH6c},
+  url = {https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html},
+html = {https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html}
+
+ }
+
+
+
+@article{Apolinario2025thesis,
+abbr={Thesis},
+author = {M. P. E. {Apolinario}},
+title = {Energy-Efficient On-Device Learning: Brain-Inspired Algorithms and Hardware Co-Design for Neuromorphic Edge Intelligence},
+journal={Ph.D. thesis},
+year = {2025},
+url = {https://hammer.purdue.edu/articles/thesis/Energy-Efficient_On-Device_Learning_Brain-Inspired_Algorithms_and_Hardware_Co-Design_for_Neuromorphic_Edge_Intelligence/30850811},
+html = {https://hammer.purdue.edu/articles/thesis/Energy-Efficient_On-Device_Learning_Brain-Inspired_Algorithms_and_Hardware_Co-Design_for_Neuromorphic_Edge_Intelligence/30850811},
+doi = {10.25394/PGS.30850811.v1},
+abstract={Achieving adaptive intelligence on energy-constrained edge devices demands tight integration between learning algorithms and hardware. This dissertation develops a unified framework for energy-efficient on-device learning that bridges brain-inspired algorithms with neuromorphic hardware co-design. We begin with a hardware-software co-design methodology for deploying spiking neural networks (SNNs) on ADC-less in-memory computing (IMC) architectures. By replacing high-precision ADCs with sense amplifiers acting as 1-bit converters, the system alleviates the major energy and latency bottlenecks of analog IMC while preserving accuracy through hardware-aware training. Experiments on image classification, optical flow estimation and gesture recognition demonstrate substantial energy and latency reductions compared to conventional IMC. Building on this foundation, the dissertation introduces brain-inspired local learning rules that eliminate global error propagation. LLS, a local learning rule for deep neural networks, enables efficient training through neural activity synchronization, while S-TLLR (temporal) and TESS (spatio-temporal) provide efficient alternatives to backpropagation-through-time for SNNs. These methods achieve backpropagation-level accuracy with orders-of-magnitude lower computational and memory cost, demonstrating that biologically inspired learning is both efficient and scalable. Finally, CODE-CL and LANCE extend these principles to continual and adaptive learning in realistic on-device scenarios. CODE-CL employs conceptor-based gradient projection to preserve past knowledge while enabling flexible acquisition of new tasks, achieving higher stability and forward transfer than existing continual-learning approaches. LANCE introduces low-rank activation compression to reduce memory and computation during fine-tuning, enabling efficient, lifelong adaptation on resource-constrained devices without catastrophic forgetting. Together, these contributions present a hardware-algorithm co-design framework for neuromorphic edge intelligence that learns locally, efficiently, and continuously.}
+}
+
+
+
+@ARTICLE{Apolinario2026lance,
+  abbr={ECCV},
+  author={M. P. E. {Apolinario} and K. {Roy}},
+  journal={European Conference on Computer Vision (ECCV)},
+  title={LANCE: Low Rank Activation Compression for Efficient On-Device Continual Learning},
+  year={2026},
+  abstract={On-device learning is essential for personalization, privacy, and long-term adaptation in resource-constrained environments. Achieving this requires efficient learning, both fine-tuning existing models and continually acquiring new tasks without catastrophic forgetting. Yet both settings are constrained by high memory cost of storing activations during backpropagation. Existing activation compression methods reduce this cost but rely on repeated low-rank decompositions, introducing computational overhead. Also, such methods have not been explored for continual learning. We propose LANCE (Low-rank Activation Compression), a framework that performs one-shot higher-order Singular Value Decomposition (SVD) to obtain a reusable low-rank subspace for activation projection. This eliminates repeated decompositions, reducing both memory and computation. Moreover, fixed low-rank subspaces further enable on-device continual learning by allocating tasks to orthogonal subspaces without storing large task-specific matrices. Experiments show that LANCE reduces activation storage up to 250x while maintaining accuracy comparable to full backpropagation on CIFAR-10/100, Oxford-IIIT Pets, Flowers102, and CUB-200 datasets. On continual learning benchmarks (Split CIFAR-100, Split MiniImageNet, 5-Datasets), it performs competitively with orthogonal gradient projection methods at a fraction of the memory cost. These results position LANCE as a practical and scalable solution for efficient fine-tuning and continual learning on edge devices.},
+  arxiv={2509.21617},
+  selected={true},
+  code={https://github.com/mapolinario94/LANCE},
+  poster={LANCE-Poster-MarcoApolinario-ECCV2026.pdf},
+  url={https://doi.org/10.1007/978-3-032-37271-0_20},
+  html={https://doi.org/10.1007/978-3-032-37271-0_20},
+ }
+
+
+
+@ARTICLE{Apolinario2025lls,
+  abbr={WACV},
+  author={M. P. E. {Apolinario} and A. {Roy} and K. {Roy}},
+  journal={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  title={LLS: Local Learning Rule for Deep Neural Networks Inspired by Neural Activity Synchronization},
+  year={2025},
+  abstract={Training deep neural networks (DNNs) using traditional backpropagation (BP) presents challenges in terms of computational complexity and energy consumption, particularly for on-device learning where computational resources are limited. Various alternatives to BP, including random feedback alignment, forward-forward, and local classifiers, have been explored to address these challenges. These methods have their advantages, but they can encounter difficulties when dealing with intricate visual tasks or demand considerable computational resources. In this paper, we propose a novel Local Learning rule inspired by neural activity Synchronization phenomena (LLS) observed in the brain. LLS utilizes fixed periodic basis vectors to synchronize neuron activity within each layer, enabling efficient training without the need for additional trainable parameters. We demonstrate the effectiveness of LLS and its variations, LLS-M and LLS-MxM, on multiple image classification datasets, achieving accuracy comparable to BP with reduced computational complexity and minimal additional parameters. Furthermore, the performance of LLS on the Visual Wake Word (VWW) dataset highlights its suitability for on-device learning tasks, making it a promising candidate for edge hardware implementations.},
+  arxiv={2405.15868},
+  selected={true},
+  code={https://github.com/mapolinario94/LLS-DNN},
+  url={https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html},
+  html={https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html},
+ }
+
+
+@inproceedings{Chowdhury2024,
+  abbr={DATE},
+  author={S. {Chowdhury} and A. {Kosta} and D. {Sharma} and M. P. E. {Apolinario} and K. {Roy}},
+  booktitle={2024 Design, Automation & Test in Europe Conference & Exhibition (DATE)},
+  title={Unearthing the Potential of Spiking Neural Networks},
+  year={2024},
+  abstract={Spiking neural networks (SNNs) offer a promising alternative to traditional analog neural networks (ANNs), especially for sequential tasks, with enhanced energy efficiency. The internal memory in SNNs obtained through the membrane potential equips them with innate lightweight temporal processing capabilities. However, the unique advantages of this temporal dimension of SNN s have not yet been effectively harnessed. To that end, this article delves deeper into the what, why and where of SNNs. By considering event-based optical flow as an exemplary task in vision-based navigation, we highlight that the true potential of SNNs lies in sequential tasks. The event-driven recurrent dynamics of a spiking neuron merged harmoniously with event camera inputs enables SNNs to outperform corresponding ANNs with a lower number of parameters for optical flow. Furthermore, we demonstrate that SNNs can be synergistically combined with ANNs to form SNN-ANN hybrids to obtain the best of both worlds in terms of accuracy, energy, memory, and training efficiency. Additionally, the emergence of various near-memory and in-memory computing techniques has propelled efficient implementation of these approaches. Overall, the immediate future of SNNs looks exciting, as we discover the niche of SNNs, comprising sequential tasks with low power requirements. },
+url={https://ieeexplore.ieee.org/document/10546699},
+html={https://ieeexplore.ieee.org/document/10546699},
+ }
+
+
+@ARTICLE{Apolinario2025codecl,
+  abbr={ICCV},
+  author={M. P. E. {Apolinario} and S. {Choudhary} and K. {Roy}},
+  journal={International Conference on Computer Vision (ICCV)},
+  title={CODE-CL: Conceptor-Based Gradient Projection for Deep Continual Learning},
+  year={2025},
+  abstract={Continual learning (CL) - the ability to progressively acquire and integrate new concepts - is essential to intelligent systems to adapt to dynamic environments. However, deep neural networks struggle with catastrophic forgetting (CF) when learning tasks sequentially, as training for new tasks often overwrites previously learned knowledge. To address this, recent approaches constrain updates to orthogonal subspaces using gradient projection, effectively preserving important gradient directions for previous tasks. While effective in reducing forgetting, these approaches inadvertently hinder forward knowledge transfer (FWT), particularly when tasks are highly correlated. In this work, we propose Conceptor-based gradient projection for Deep Continual Learning (CODE-CL), a novel method that leverages conceptor matrix representations, a form of regularized reconstruction, to adaptively handle highly correlated tasks. CODE-CL mitigates CF by projecting gradients onto pseudo-orthogonal subspaces of previous task feature spaces while simultaneously promoting FWT. It achieves this by learning a linear combination of shared basis directions, allowing efficient balance between stability and plasticity and transfer of knowledge between overlapping input feature representations. Extensive experiments on continual learning benchmarks validate CODE-CL's efficacy, demonstrating superior performance, reduced forgetting, and improved FWT as compared to state-of-the-art methods.},
+  arxiv={2411.15235},
+  selected={true},
+  code={https://github.com/mapolinario94/CODE-CL},
+  poster={CODE-CL-Poster-MarcoApolinario-ICCV.pdf},
+ }
+
+@ARTICLE{Apolinario2025tess,
+  abbr={IJCNN},
+  author={M. P. E. {Apolinario} and K. {Roy} and C. {Frenkel}},
+  journal={International Joint Conference on Neural Networks (IJCNN)},
+  title={TESS: A Scalable Temporally and Spatially Local Learning Rule for Spiking Neural Networks},
+  year={2025},
+  abstract={The demand for low-power inference and training of deep neural networks (DNNs) on edge devices has intensified the need for algorithms that are both scalable and energy-efficient. While spiking neural networks (SNNs) allow for efficient inference by processing complex spatio-temporal dynamics in an event-driven fashion, training them on resource-constrained devices remains challenging due to the high computational and memory demands of conventional error backpropagation (BP)-based approaches. In this work, we draw inspiration from biological mechanisms such as eligibility traces, spike-timing-dependent plasticity, and neural activity synchronization to introduce TESS, a temporally and spatially local learning rule for training SNNs. Our approach addresses both temporal and spatial credit assignments by relying solely on locally available signals within each neuron, thereby allowing computational and memory overheads to scale linearly with the number of neurons, independently of the number of time steps. Despite relying on local mechanisms, we demonstrate performance comparable to the backpropagation through time (BPTT) algorithm, within ∼1.4 accuracy points on challenging computer vision scenarios relevant at the edge, such as the IBM DVS Gesture dataset, CIFAR10-DVS, and temporal versions of CIFAR10, and CIFAR100. Being able to produce comparable performance to BPTT while keeping low time and memory complexity, TESS enables efficient and scalable on-device learning at the edge.},
+  arxiv={2502.01837},
+  code={https://github.com/mapolinario94/TESS},
+ }
+
+@ARTICLE{Apolinario2025stllr,
+  abbr={TMLR},
+  author={M. P. E. {Apolinario} and K. {Roy}},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  title={S-TLLR: STDP-inspired Temporal Local Learning Rule for Spiking Neural Networks},
+  year={2025},
+  abstract={Spiking Neural Networks (SNNs) are biologically plausible models that have been identified as potentially apt for deploying energy-efficient intelligence at the edge, particularly for sequential learning tasks. However, training of SNNs poses significant challenges due to the necessity for precise temporal and spatial credit assignment. Back-propagation through time (BPTT) algorithm, whilst the most widely used method for addressing these issues, incurs high computational cost due to its temporal dependency. In this work, we propose S-TLLR, a novel three-factor temporal local learning rule inspired by the Spike-Timing Dependent Plasticity (STDP) mechanism, aimed at training deep SNNs on event-based learning tasks. Furthermore, S-TLLR is designed to have low memory and time complexities, which are independent of the number of time steps, rendering it suitable for online learning on low-power edge devices. To demonstrate the scalability of our proposed method, we have conducted extensive evaluations on event-based datasets spanning a wide range of applications, such as image and gesture recognition, audio classification, and optical flow estimation. S-TLLR achieves comparable accuracy to BPTT (within ±2% for most tasks), while reducing memory usage by 5-50× and multiply-accumulate (MAC) operations by 1.3-6.6×, particularly when updates are restricted to the last few time-steps.},
+  arxiv={2306.15220},
+  issn={2835-8856},
+  url={https://openreview.net/forum?id=CNaiJRcX84},
+  html={https://openreview.net/forum?id=CNaiJRcX84},
+  selected={true},
+  code={https://github.com/mapolinario94/S-TLLR},
+  poster={S-TLLR-Poster-MarcoApolinario-NeVi.pdf},
+ }
+
+
+
+@inproceedings{
+    Kosta2023,
+    abbr={CVPR},
+    author={A. {Kosta} and M. P. E. {Apolinario} and K. {Roy}},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    title={Live Demonstration: ANN vs SNN vs Hybrid Architectures for Event-based Real-time Gesture Recognition and Optical Flow Estimation},
+    month     = {June},
+    year      = {2023},
+    pages     = {4147-4148},
+    url={https://openaccess.thecvf.com/content/CVPR2023W/EventVision/html/Kosta_Live_Demonstration_ANN_vs_SNN_vs_Hybrid_Architectures_for_Event-Based_CVPRW_2023_paper.html},
+    html={https://openaccess.thecvf.com/content/CVPR2023W/EventVision/html/Kosta_Live_Demonstration_ANN_vs_SNN_vs_Hybrid_Architectures_for_Event-Based_CVPRW_2023_paper.html},
+    abstract={Spiking Neural Networks (SNNs) have recently emerged as a promising solution to handle asynchronous data from event-based cameras. Their inherent recurrence allows temporal information in events to be effectively captured unlike widely used non-spiking artificial neural networks (so-called ANNs). However, SNNs are not suitable to run on GPUs and still require specialized neuromorphic hardware to process events efficiently. Hybrid SNN-ANN architectures aim to obtain the best of both worlds with initial SNN layers capturing input temporal information followed by standard ANN layers for ease of training and deployment on GPUs. In this work, we implement ANN, SNN, and hybrid architectures for real-time gesture recognition and optical flow estimation on standard GPUs. We compare different architectures in terms of prediction accuracy, number of parameters, latency, and computational power when executing them in real time on a standard laptop. Our implementation suggests that the hybrid architecture offers the best trade-off in terms of accuracy, compute efficiency, and latency on readily available GPU platforms.},
+}
+
+
+
+@inproceedings{Biswas2023halsie,
+  abbr={WACV},
+  author={S. {Biswas} and A. {Kosta} and C. {Liyanagedera} and M. P. E. {Apolinario} and K. {Roy}},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  title={HALSIE -- Hybrid Approach to Learning Segmentation by Simultaneously Exploiting Image and Event Modalities},
+  year={2024},
+  abstract={Standard frame-based algorithms fail to retrieve accurate segmentation maps in challenging real-time applications like autonomous navigation, owing to the limited dynamic range and motion blur prevalent in traditional cameras. Event cameras address these limitations by asynchronously detecting changes in per-pixel intensity to generate event streams with high temporal resolution, high dynamic range, and no motion blur. However, event camera outputs cannot be directly used to generate reliable segmentation maps as they only capture information at the pixels in motion. To augment the missing contextual information, we postulate that fusing spatially dense frames with temporally dense events can generate semantic maps with fine-grained predictions. To this end, we propose HALSIE, a hybrid approach to learning segmentation by simultaneously leveraging image and event modalities. To enable efficient learning across modalities, our proposed hybrid framework comprises two input branches, a Spiking Neural Network (SNN) branch and a standard Artificial Neural Network (ANN) branch to process event and frame data respectively, while exploiting their corresponding neural dynamics. Our hybrid network outperforms the state-of-the-art semantic segmentation benchmarks on DDD17 and MVSEC datasets and shows comparable performance on the DSEC-Semantic dataset with upto 33.23× reduction in network parameters. Further, our method shows upto 18.92× improvement in inference cost compared to existing SOTA approaches, making it suitable for resource-constrained edge applications.},
+  arxiv={2211.10754},
+  selected={false},
+  url={https://openaccess.thecvf.com/content/WACV2024/papers/Biswas_HALSIE_Hybrid_Approach_to_Learning_Segmentation_by_Simultaneously_Exploiting_Image_WACV_2024_paper.pdf},
+  html={https://openaccess.thecvf.com/content/WACV2024/papers/Biswas_HALSIE_Hybrid_Approach_to_Learning_Segmentation_by_Simultaneously_Exploiting_Image_WACV_2024_paper.pdf},
+ }
+
+@ARTICLE{Apolinario2023adcless,
+  abbr={TETC},
+  author={M. P. E. {Apolinario} and A. {Kosta} and U. {Saxena} and K. {Roy}},
+  journal={IEEE Transactions on Emerging Topics in Computing},
+  title={Hardware/Software co-design with ADC-Less In-memory Computing Hardware for Spiking Neural Networks},
+  year={2023},
+  month = {September},
+  abstract={Spiking Neural Networks (SNNs) are bio-plausible models that hold great potential for realizing energy-efficient implementations of sequential tasks on resource-constrained edge devices. However, commercial edge platforms based on standard GPUs are not optimized to deploy SNNs, resulting in high energy and latency. While analog In-Memory Computing (IMC) platforms can serve as energy-efficient inference engines, they are accursed by the immense energy, latency, and area requirements of high-precision ADCs (HP-ADC), overshadowing the benefits of in-memory computations. We propose a hardware/software co-design methodology to deploy SNNs into an ADC-Less IMC architecture using sense-amplifiers as 1-bit ADCs replacing conventional HP-ADCs and alleviating the above issues. Our proposed framework incurs minimal accuracy degradation by performing hardware-aware training and is able to scale beyond simple image classification tasks to more complex sequential regression tasks. Experiments on complex tasks of optical flow estimation and gesture recognition show that progressively increasing the hardware awareness during SNN training allows the model to adapt and learn the errors due to the non-idealities associated with ADC-Less IMC. Also, the proposed ADC-Less IMC offers significant energy and latency improvements, 2−7× and 8.9−24.6×, respectively, depending on the SNN model and the workload, compared to HP-ADC IMC.},
+  arxiv={2211.02167},
+  url={https://doi.org/10.1109/TETC.2023.3316121},
+  html={https://doi.org/10.1109/TETC.2023.3316121},
+ }
+
+
+@inproceedings{
+    Lopez2021,
+    abbr={BTSym},
+    author={L.E. {López Huamán} and M. P. E. {Apolinario} and S.G. {Huamán Bustamante}},
+    booktitle={Iano Y., Arthur R., Saotome O., Kemper G., Borges Monteiro A.C. (eds) Proceedings of the 5th Brazilian Technology Symposium. Smart Innovation, Systems and Technologies},
+    title={Method of Estimating River Levels with Reflective Tapes Using Artificial Vision Techniques},
+    year={2021},
+    volume={202},
+    doi={10.1007/978-3-030-57566-3_19},
+    url={https://doi.org/10.1007/978-3-030-57566-3_19},
+    html={https://doi.org/10.1007/978-3-030-57566-3_19},
+    ISSN={978-3-030-57565-6},
+    publisher={Springer, Cham},
+    abstract={Water level measurement in a river is a necessary step for flood prevention. Early recognition of this factor could reduce the vulnerability of the population in the surroundings. In this work, we use frames from videos as images to obtain water level measurement indirectly. We applied digital image processing techniques over these images to perform segmentation, edge detection, and we also applied multiple view geometry techniques as projective transformation in a plane. The proposed method estimates water level in specific locations where it is possible to install a reflective tape with a two-color pattern, used as an indicator of water level. We obtained the segmentation of the section out of the water of the reflective tape and so we get the estimation of water level. Through the relation of the real distances (in centimeters) that have four collinear points, seen from a perpendicular view, with the distances (in pixel unit) of those same points contained in an image, which has undergone a projective transformation. We made testing in a water tank built to this work and the tests produced a percentage error at the range of 0.01–2.06% to a distance of 1.5 m from a wall and 2 m high (location of camera).},
+}
+
+@INPROCEEDINGS{8526457,
+  abbr={INTERCON},
+  author={M. P. E. {Apolinario} and S. G. {Huaman Bustamante} and G. C. {Orellana}},
+  booktitle={2018 IEEE XXV International Conference on Electronics, Electrical Engineering and Computing (INTERCON)},
+  title={Deep Learning Applied to Identification of Commercial Timber Species from Peru},
+  year={2018},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={Automatic identification of timber species is a necessity and a challenge in several aspects, especially for government institutions in charge of monitoring forestry resources. In this paper, we propose a methodology to develop an efficient computational model to identify wood samples of seven commercial timber species chosen according to availability of samples properly classified by specialists. For this, we created image sets of wood of seven timber species using a portable digital microscope connected to a personal computer. These images were divided into patches and grouped into training, validation and test sets, with which a convolutional neuronal network was trained. It consist of four layers: two convolutional layers with max pooling and two fully connected layers at the output. Previously, three image patch sizes were evaluated to find the highest accuracy value, precision and sensitivity for the identification. The results show a good performance of the computational model with an accuracy of 94.05% and precision and sensitivity values around 90%, under proposed conditions.},
+  keywords={convolution;feature extraction;feedforward neural nets;forestry;government;image classification;learning (artificial intelligence);microcomputers;microscopes;timber;automatic identification;government institutions;monitoring forestry resources;wood samples;portable digital microscope;personal computer;convolutional neuronal network;fully connected layers;image patch sizes;deep learning;commercial timber species;Training;Microscopy;Kernel;Forestry;Sensitivity;Biological neural networks;Convolutional Neural Networks;kernel image;woods species recognition},
+  doi={10.1109/INTERCON.2018.8526457},
+  ISSN={},
+  month={Aug},
+  url={https://ieeexplore.ieee.org/document/8526457},
+  html={https://ieeexplore.ieee.org/document/8526457},}
+
+@ARTICLE{9011545,
+  abbr={IEEELatam},
+  author={M. P. E. {Apolinario} and D. A. {Urcia Paredes} and S. G. {Huaman Bustamante}},
+  journal={IEEE Latin America Transactions},
+  title={Open Set Recognition of Timber Species Using Deep Learning for Embedded Systems},
+  year={2019},
+  volume={17},
+  number={12},
+  pages={2005-2012},
+  abstract={Reliable and rapid identification of timber species is a very relevant issue for many countries in South America and especially for Peru, which is the second country with the largest extent of tropical forest, and that is because this issue is a necessity in order to develop an effective management of the forest resources, such as inspection and control of the timber commerce. Since current methods of identification are based on a closed set recognition approach, they are not reliable enough to be used in a practical application because scenarios of identification of timber species are by nature an open set recognition problem. For that reason, in this work we propose a convolutional neural network that has two main characteristics, being able to run in a real-time embedded system and being able to handle the open set recognition problem, that is, this model can discriminate between known and unknown species. In order to evaluate it, tests are performed in two timber species datasets and some experiments are developed in the embedded system Raspberry Pi3B+ to measure energy consumption. The results present high metrics, which means that it manages to discriminate the unknown species with accuracy and F1 score above 91% for two sets of images used. In addition to this, our proposed model obtain lower maximum power value (10-12%) and computational resource usage (5-13%) than a classical convolutional model and MobileNetsV2 measured on the Raspberry Pi3B+.},
+  keywords={convolutional neural nets;embedded systems;energy consumption;forestry;learning (artificial intelligence);timber;tropical forest;forest resources;timber commerce;closed set recognition approach;open set recognition problem;real-time embedded system;unknown species;timber species datasets;embedded system Raspberry Pi3B;energy consumption;Forestry;Embedded systems;Energy comsumption;Convolutional neural networks;convolutional neural network;embedded system;open set recognition;timber species},
+  doi={10.1109/TLA.2019.9011545},
+  ISSN={1548-0992},
+  month={December},
+  url={https://ieeexplore.ieee.org/document/9011545},
+  html={https://ieeexplore.ieee.org/document/9011545},
+  selected={false},}
+
+@INPROCEEDINGS{8853566,
+  abbr={INTERCON},
+  author={M. P. E. {Apolinario} and S. G. {Huaman Bustamante} and G. {Morales} and D. {Diaz}},
+  booktitle={2019 IEEE XXVI International Conference on Electronics, Electrical Engineering and Computing (INTERCON)},
+  title={Estimation of 2D Velocity Model using Acoustic Signals and Convolutional Neural Networks},
+  year={2019},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={The parameters estimation of a system using indirect measurements over the same system is a problem that occurs in many fields of engineering, known as the inverse problem. It also happens in the field of underwater acoustic, especially in mediums that are not transparent enough. In those cases, shape identification of objects using only acoustic signals is a challenge because it is carried out with information of echoes that are produced by objects with different densities from that of the medium. In general, these echoes are difficult to understand since their information is usually noisy and redundant. In this paper, we propose a model of convolutional neural network with an Encoder-Decoder configuration to estimate both localization and shape of objects, which produce reflected signals. This model allows us to obtain a 2D velocity model. The model was trained with data generated by the finite-difference method, and it achieved a value of 98.58% in the intersection over union metric 75.88% in precision and 64.69% in sensitivity.},
+  url={https://ieeexplore.ieee.org/document/8853566},
+  html={https://ieeexplore.ieee.org/document/8853566},
+  doi={10.1109/INTERCON.2019.8853566}}
+
+

@@ -1,0 +1,37 @@
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#00369f"
+
+"PhysRev":
+  url: https://journals.aps.org/
+
+"IEEELatam":
+  color: "#0b7002"
+
+"arXiv":
+  color: "#780413"
+
+"INTERCON":
+  color: "#00369f"
+
+"WACV":
+  url: https://wacv2025.thecvf.com/
+  color: "#07DFD5"
+
+"TETC":
+  color: "#27C108"
+
+
+"DATE":
+  color: "#003399"
+
+"IJCNN":
+  color: "#0b7002"
+
+"ICCV":
+  url: https://cvpr.thecvf.com/
+  color: "#00369f"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#00c0fa"
